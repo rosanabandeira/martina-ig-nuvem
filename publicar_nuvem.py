@@ -72,10 +72,38 @@ def _esperar_video(cid, timeout=240):
     raise IGError("Tempo esgotado esperando o video processar.")
 
 
+def _container_pronto(cid, timeout=90):
+    """Espera o container ficar FINISHED antes de publicar (evita 'Media ID is not available')."""
+    inicio = time.time()
+    while time.time() - inicio < timeout:
+        try:
+            st = _get(cid, {"fields": "status_code"})
+            if st.get("status_code") == "FINISHED":
+                return True
+        except IGError:
+            pass
+        time.sleep(4)
+    return False
+
+
 def _publicar(cid):
-    mid = _post(f"{IG_USER_ID}/media_publish", {"creation_id": cid})["id"]
-    log(f"PUBLICADO. media id = {mid}")
-    return mid
+    # o container pode levar alguns segundos pra ficar publicavel (stories/imagens inclusive)
+    _container_pronto(cid)
+    ultimo_erro = None
+    for tentativa in range(6):
+        try:
+            mid = _post(f"{IG_USER_ID}/media_publish", {"creation_id": cid})["id"]
+            log(f"PUBLICADO. media id = {mid}")
+            return mid
+        except IGError as e:
+            ultimo_erro = e
+            msg = str(e).lower()
+            if "not available" in msg or "not ready" in msg or "media id" in msg:
+                log(f"container ainda nao pronto (tentativa {tentativa+1}/6), aguardando 8s...")
+                time.sleep(8)
+                continue
+            raise
+    raise IGError(f"nao publicou apos varias tentativas: {ultimo_erro}")
 
 
 def publicar_slot(nome, dry_run=False):
