@@ -2,6 +2,15 @@
   "base_url": "https://martinacorretora.com.br/ig",
   "semana": "S4 (24-26/07) + S5 (27/07-02/08) 2026",
   "slots": {
+    "stories_qua22": {
+      "tipo": "story",
+      "quando": "2026-07-22 (publicacao manual hoje)",
+      "arquivos": [
+        "s4/stories/qua22/story_1.jpg",
+        "s4/stories/qua22/story_2.jpg",
+        "s4/stories/qua22/story_3.jpg"
+      ]
+    },
     "sex_checklist": {
       "tipo": "feed",
       "quando": "2026-07-24 07:35 (SP)",

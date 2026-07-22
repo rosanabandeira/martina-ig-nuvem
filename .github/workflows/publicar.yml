@@ -14,6 +14,7 @@ on:
         required: true
         type: choice
         options:
+          - stories_qua22
           - sex_checklist
           - stories_qui23
           - stories_sex24
