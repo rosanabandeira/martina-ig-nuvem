@@ -1,0 +1,90 @@
+name: Publicar Instagram (Semana 5)
+
+# Despertador na nuvem: publica os posts/stories da Martina nos horarios certos,
+# SEM depender do PC da Rosana. Horarios em UTC (Sao Paulo = UTC-3).
+#   Feed  12:00 SP = 15:00 UTC
+#   Story 09:00 SP = 12:00 UTC
+
+on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Qual slot publicar (teste manual)"
+        required: true
+        type: choice
+        options:
+          - seg_meme
+          - qua_hottake
+          - sex_reel
+          - stories_seg
+          - stories_ter
+          - stories_qua
+          - stories_qui
+          - stories_sex
+          - stories_sab
+          - stories_dom
+      dry_run:
+        description: "So testar, sem publicar?"
+        required: false
+        default: true
+        type: boolean
+  schedule:
+    # --- Feed (15:00 UTC = 12:00 SP) ---
+    - cron: "0 15 27 7 *"   # seg 27/07 - meme poupanca
+    - cron: "0 15 29 7 *"   # qua 29/07 - hot take (carrossel)
+    - cron: "0 15 31 7 *"   # sex 31/07 - reel 3 filtros
+    # --- Stories (12:00 UTC = 09:00 SP) ---
+    - cron: "0 12 27 7 *"   # seg 27/07
+    - cron: "0 12 28 7 *"   # ter 28/07
+    - cron: "0 12 29 7 *"   # qua 29/07
+    - cron: "0 12 30 7 *"   # qui 30/07
+    - cron: "0 12 31 7 *"   # sex 31/07
+    - cron: "0 12 1 8 *"    # sab 01/08
+    - cron: "0 12 2 8 *"    # dom 02/08
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Descobrir o slot
+        id: slot
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "slot=${{ github.event.inputs.slot }}" >> "$GITHUB_OUTPUT"
+            echo "dry=${{ github.event.inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+          else
+            case "${{ github.event.schedule }}" in
+              "0 15 27 7 *") echo "slot=seg_meme"    >> "$GITHUB_OUTPUT" ;;
+              "0 15 29 7 *") echo "slot=qua_hottake" >> "$GITHUB_OUTPUT" ;;
+              "0 15 31 7 *") echo "slot=sex_reel"    >> "$GITHUB_OUTPUT" ;;
+              "0 12 27 7 *") echo "slot=stories_seg" >> "$GITHUB_OUTPUT" ;;
+              "0 12 28 7 *") echo "slot=stories_ter" >> "$GITHUB_OUTPUT" ;;
+              "0 12 29 7 *") echo "slot=stories_qua" >> "$GITHUB_OUTPUT" ;;
+              "0 12 30 7 *") echo "slot=stories_qui" >> "$GITHUB_OUTPUT" ;;
+              "0 12 31 7 *") echo "slot=stories_sex" >> "$GITHUB_OUTPUT" ;;
+              "0 12 1 8 *")  echo "slot=stories_sab" >> "$GITHUB_OUTPUT" ;;
+              "0 12 2 8 *")  echo "slot=stories_dom" >> "$GITHUB_OUTPUT" ;;
+              *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
+            esac
+            echo "dry=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publicar
+        if: steps.slot.outputs.slot != ''
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          if [ "${{ steps.slot.outputs.dry }}" = "true" ]; then
+            python publicar_nuvem.py "${{ steps.slot.outputs.slot }}" --dry-run
+          else
+            python publicar_nuvem.py "${{ steps.slot.outputs.slot }}"
+          fi
