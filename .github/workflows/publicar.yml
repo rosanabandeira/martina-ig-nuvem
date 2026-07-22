@@ -14,6 +14,11 @@ on:
         required: true
         type: choice
         options:
+          - sex_checklist
+          - stories_qui23
+          - stories_sex24
+          - stories_sab25
+          - stories_dom26
           - seg_meme
           - qua_hottake
           - sex_reel
@@ -30,6 +35,12 @@ on:
         default: true
         type: boolean
   schedule:
+    # === SEMANA 4 — 07:30 SP = 10:30 UTC (feed da sexta 07:35 p/ nao colidir) ===
+    - cron: "30 10 23 7 *"   # qui 23/07 - stories
+    - cron: "30 10 24 7 *"   # sex 24/07 - stories
+    - cron: "35 10 24 7 *"   # sex 24/07 - carrossel checklist
+    - cron: "30 10 25 7 *"   # sab 25/07 - stories
+    - cron: "30 10 26 7 *"   # dom 26/07 - stories
     # --- Feed (15:00 UTC = 12:00 SP) ---
     - cron: "0 15 27 7 *"   # seg 27/07 - meme poupanca
     - cron: "0 15 29 7 *"   # qua 29/07 - hot take (carrossel)
@@ -64,6 +75,11 @@ jobs:
             echo "dry=${{ github.event.inputs.dry_run }}" >> "$GITHUB_OUTPUT"
           else
             case "${{ github.event.schedule }}" in
+              "30 10 23 7 *") echo "slot=stories_qui23" >> "$GITHUB_OUTPUT" ;;
+              "30 10 24 7 *") echo "slot=stories_sex24" >> "$GITHUB_OUTPUT" ;;
+              "35 10 24 7 *") echo "slot=sex_checklist"  >> "$GITHUB_OUTPUT" ;;
+              "30 10 25 7 *") echo "slot=stories_sab25" >> "$GITHUB_OUTPUT" ;;
+              "30 10 26 7 *") echo "slot=stories_dom26" >> "$GITHUB_OUTPUT" ;;
               "0 15 27 7 *") echo "slot=seg_meme"    >> "$GITHUB_OUTPUT" ;;
               "0 15 29 7 *") echo "slot=qua_hottake" >> "$GITHUB_OUTPUT" ;;
               "0 15 31 7 *") echo "slot=sex_reel"    >> "$GITHUB_OUTPUT" ;;

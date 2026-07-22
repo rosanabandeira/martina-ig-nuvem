@@ -1,13 +1,63 @@
 {
-  "base_url": "https://martinacorretora.com.br/ig/s5",
-  "semana": "S5 (27/07 a 02/08/2026)",
+  "base_url": "https://martinacorretora.com.br/ig",
+  "semana": "S4 (24-26/07) + S5 (27/07-02/08) 2026",
   "slots": {
+    "sex_checklist": {
+      "tipo": "feed",
+      "quando": "2026-07-24 07:35 (SP)",
+      "legenda": "Como saber se um imóvel é bom investimento antes de comprar?\n\nEu recuso mais imóvel do que indico — e é justamente por isso que quando chega uma opção sua, ela já passou por filtro. Essa é a minha lista: sigla, localização (os 4 imãs de inquilino), condomínio real, quanto aluga de verdade e liquidez de revenda.\n\nSalva pra usar na próxima vez que te oferecerem um \"imperdível\". E se quiser que eu rode essa checagem num imóvel específico, me manda antes de assinar qualquer coisa.\n\n👉 Comenta CHECK que eu te mando a lista completa no direct.\n\n#investimentoimobiliario #imoveissp #comprarimovel #studiosp #corretorasp #investiremimoveis #saidoaluguel #rendapassiva",
+      "arquivos": [
+        "s4/sex_checklist/slide_1.jpg",
+        "s4/sex_checklist/slide_2.jpg",
+        "s4/sex_checklist/slide_3.jpg",
+        "s4/sex_checklist/slide_4.jpg",
+        "s4/sex_checklist/slide_5.jpg",
+        "s4/sex_checklist/slide_6.jpg",
+        "s4/sex_checklist/slide_7.jpg"
+      ]
+    },
+    "stories_qui23": {
+      "tipo": "story",
+      "quando": "2026-07-23 07:30 (SP)",
+      "arquivos": [
+        "s4/stories/qui23/story_1.jpg",
+        "s4/stories/qui23/story_2.jpg",
+        "s4/stories/qui23/story_3.jpg"
+      ]
+    },
+    "stories_sex24": {
+      "tipo": "story",
+      "quando": "2026-07-24 07:30 (SP)",
+      "arquivos": [
+        "s4/stories/sex24/story_1.jpg",
+        "s4/stories/sex24/story_2.jpg",
+        "s4/stories/sex24/story_3.jpg"
+      ]
+    },
+    "stories_sab25": {
+      "tipo": "story",
+      "quando": "2026-07-25 07:30 (SP)",
+      "arquivos": [
+        "s4/stories/sab25/story_1.jpg",
+        "s4/stories/sab25/story_2.jpg",
+        "s4/stories/sab25/story_3.jpg"
+      ]
+    },
+    "stories_dom26": {
+      "tipo": "story",
+      "quando": "2026-07-26 07:30 (SP)",
+      "arquivos": [
+        "s4/stories/dom26/story_1.jpg",
+        "s4/stories/dom26/story_2.jpg",
+        "s4/stories/dom26/story_3.jpg"
+      ]
+    },
     "seg_meme": {
       "tipo": "feed",
       "quando": "2026-07-27 12:00 (SP)",
       "legenda": "Rir pra não chorar 😅\n\nMas a real: dinheiro parado é dinheiro derretendo. A poupança mal acompanha a inflação — no fim do ano, seu poder de compra encolheu.\n\nUm studio bem escolhido, perto de metrô, gira algo em torno de 0,8% a 1% ao mês no aluguel — e ainda valoriza com o tempo.\n\nNão é sobre ter muito pra começar. É sobre parar de perder pro tempo.\n\n📌 Marca aquele amigo que ainda jura que poupança é investimento.\n\n—\nMartina Corretora · curadoria de studios pra investir em SP\n#investimentoimobiliario #studiosp #imoveissp #rendapassiva #sairdoaluguel #investiremimoveis",
       "arquivos": [
-        "seg_meme/slide_1.jpg"
+        "s5/seg_meme/slide_1.jpg"
       ]
     },
     "qua_hottake": {
@@ -15,13 +65,13 @@
       "quando": "2026-07-29 12:00 (SP)",
       "legenda": "Opinião impopular: o studio mais barato quase sempre é o pior negócio. 🚫\n\nEu sei que soa estranho vindo de quem vende imóvel. Mas é justamente por vender que eu falo: barato costuma vir com andar baixo, sem sol, longe do metrô e prédio sem lazer — tudo que derruba o aluguel e trava a revenda.\n\nO que faz um studio girar não é o preço lá embaixo. É LOCALIZAÇÃO + a metragem certa. Por isso eu prefiro 25m² no lugar certo a 40m² no lugar errado: rende mais por m² e sai mais rápido quando você quiser vender.\n\nMesmo ticket, resultado oposto. Essa é a conta que quase ninguém faz antes de comprar.\n\n📌 Salva pra lembrar na hora de decidir. E me conta: você concorda com essa? 👇\n\n—\nMartina Corretora · curadoria de studios pra investir em SP\n#investimentoimobiliario #studiosp #imoveissp #comprarimovel #investiremimoveis #mercadoimobiliario",
       "arquivos": [
-        "qua_hottake/slide_1.jpg",
-        "qua_hottake/slide_2.jpg",
-        "qua_hottake/slide_3.jpg",
-        "qua_hottake/slide_4.jpg",
-        "qua_hottake/slide_5.jpg",
-        "qua_hottake/slide_6.jpg",
-        "qua_hottake/slide_7.jpg"
+        "s5/qua_hottake/slide_1.jpg",
+        "s5/qua_hottake/slide_2.jpg",
+        "s5/qua_hottake/slide_3.jpg",
+        "s5/qua_hottake/slide_4.jpg",
+        "s5/qua_hottake/slide_5.jpg",
+        "s5/qua_hottake/slide_6.jpg",
+        "s5/qua_hottake/slide_7.jpg"
       ]
     },
     "sex_reel": {
@@ -29,70 +79,70 @@
       "quando": "2026-07-31 12:00 (SP)",
       "legenda": "Eu não indico qualquer studio pro meu cliente. Ele passa por 3 filtros antes. 👇\n\n1️⃣ LOCALIZAÇÃO — metrô por perto (uns 300m). É o que garante inquilino e valorização.\n2️⃣ METRAGEM — 22 a 30m². O ticket que mais aluga e gira rápido em SP.\n3️⃣ CATEGORIA NR — aluga livre, inclusive Airbnb, dentro da regra.\n\nPassou nos 3? Aí sim eu levo pra você. Sem os 3, eu nem mostro — porque meu trabalho é te poupar do imóvel errado, não te empurrar qualquer coisa.\n\nQuer que eu ache o seu dentro desse padrão? Me chama no Direct. 📩\n\n—\nMartina Corretora · curadoria de studios pra investir em SP\n#studiosp #investimentoimobiliario #imoveissp #airbnbsp #rendapassiva #investiremimoveis",
       "arquivos": [
-        "sex_reel/reel.mp4"
+        "s5/sex_reel/reel.mp4"
       ]
     },
     "stories_seg": {
       "tipo": "story",
       "quando": "2026-07-27 09:00 (SP)",
       "arquivos": [
-        "stories/seg/story_1.jpg",
-        "stories/seg/story_2.jpg",
-        "stories/seg/story_3.jpg"
+        "s5/stories/seg/story_1.jpg",
+        "s5/stories/seg/story_2.jpg",
+        "s5/stories/seg/story_3.jpg"
       ]
     },
     "stories_ter": {
       "tipo": "story",
       "quando": "2026-07-28 09:00 (SP)",
       "arquivos": [
-        "stories/ter/story_1.jpg",
-        "stories/ter/story_2.jpg",
-        "stories/ter/story_3.jpg"
+        "s5/stories/ter/story_1.jpg",
+        "s5/stories/ter/story_2.jpg",
+        "s5/stories/ter/story_3.jpg"
       ]
     },
     "stories_qua": {
       "tipo": "story",
       "quando": "2026-07-29 09:00 (SP)",
       "arquivos": [
-        "stories/qua/story_1.jpg",
-        "stories/qua/story_2.jpg",
-        "stories/qua/story_3.jpg"
+        "s5/stories/qua/story_1.jpg",
+        "s5/stories/qua/story_2.jpg",
+        "s5/stories/qua/story_3.jpg"
       ]
     },
     "stories_qui": {
       "tipo": "story",
       "quando": "2026-07-30 09:00 (SP)",
       "arquivos": [
-        "stories/qui/story_1.jpg",
-        "stories/qui/story_2.jpg",
-        "stories/qui/story_3.jpg"
+        "s5/stories/qui/story_1.jpg",
+        "s5/stories/qui/story_2.jpg",
+        "s5/stories/qui/story_3.jpg"
       ]
     },
     "stories_sex": {
       "tipo": "story",
       "quando": "2026-07-31 09:00 (SP)",
       "arquivos": [
-        "stories/sex/story_1.jpg",
-        "stories/sex/story_2.jpg",
-        "stories/sex/story_3.jpg"
+        "s5/stories/sex/story_1.jpg",
+        "s5/stories/sex/story_2.jpg",
+        "s5/stories/sex/story_3.jpg"
       ]
     },
     "stories_sab": {
       "tipo": "story",
       "quando": "2026-08-01 09:00 (SP)",
       "arquivos": [
-        "stories/sab/story_1.jpg",
-        "stories/sab/story_2.jpg",
-        "stories/sab/story_3.jpg"
+        "s5/stories/sab/story_1.jpg",
+        "s5/stories/sab/story_2.jpg",
+        "s5/stories/sab/story_3.jpg"
       ]
     },
     "stories_dom": {
       "tipo": "story",
       "quando": "2026-08-02 09:00 (SP)",
       "arquivos": [
-        "stories/dom/story_1.jpg",
-        "stories/dom/story_2.jpg",
-        "stories/dom/story_3.jpg"
+        "s5/stories/dom/story_1.jpg",
+        "s5/stories/dom/story_2.jpg",
+        "s5/stories/dom/story_3.jpg"
       ]
     }
   }
