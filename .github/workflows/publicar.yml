@@ -30,6 +30,9 @@ on:
           - stories_sex
           - stories_sab
           - stories_dom
+          - s6_seg_siglas
+          - s6_qua_moema
+          - s6_sex_hum
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -54,6 +57,10 @@ on:
     - cron: "0 12 31 7 *"   # sex 31/07
     - cron: "0 12 1 8 *"    # sab 01/08
     - cron: "0 12 2 8 *"    # dom 02/08
+    # === SEMANA 6 — Feed 12:00 SP = 15:00 UTC ===
+    - cron: "0 15 4 8 *"   # seg 04/08 - EDU carrossel siglas
+    - cron: "0 15 6 8 *"   # qua 06/08 - REEL oferta Moema
+    - cron: "0 15 8 8 *"   # sex 08/08 - HUM carrossel morar/investir
 
 jobs:
   publicar:
@@ -91,6 +98,9 @@ jobs:
               "0 12 31 7 *") echo "slot=stories_sex" >> "$GITHUB_OUTPUT" ;;
               "0 12 1 8 *")  echo "slot=stories_sab" >> "$GITHUB_OUTPUT" ;;
               "0 12 2 8 *")  echo "slot=stories_dom" >> "$GITHUB_OUTPUT" ;;
+              "0 15 4 8 *")  echo "slot=s6_seg_siglas" >> "$GITHUB_OUTPUT" ;;
+              "0 15 6 8 *")  echo "slot=s6_qua_moema"  >> "$GITHUB_OUTPUT" ;;
+              "0 15 8 8 *")  echo "slot=s6_sex_hum"    >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"

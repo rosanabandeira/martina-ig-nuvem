@@ -1,6 +1,6 @@
 {
   "base_url": "https://martinacorretora.com.br/ig",
-  "semana": "S4 (24-26/07) + S5 (27/07-02/08) 2026",
+  "semana": "S6 (04-08/08/2026) + historico S4/S5",
   "slots": {
     "stories_qua22": {
       "tipo": "story",
@@ -152,6 +152,42 @@
         "s5/stories/dom/story_1.jpg",
         "s5/stories/dom/story_2.jpg",
         "s5/stories/dom/story_3.jpg"
+      ]
+    },
+    "s6_seg_siglas": {
+      "tipo": "feed",
+      "quando": "2026-08-04 12:00 (SP)",
+      "legenda": "O que significam HIS, HMP, R2V e NR num apartamento de São Paulo — e por que isso decide o seu bolso.\n\nAs faixas de HIS e HMP são medidas em salários mínimos e subiram com o mínimo de 2026 (R$ 1.621). Mas a regra do Airbnb continua a mesma: HIS e HMP só aluguel tradicional; só o NR faz short stay dentro da lei.\n\nAntes de assinar qualquer coisa, confira a sigla. Me manda o empreendimento que eu digo a categoria e a faixa. Comenta SIGLA 👇\n\n—\nMartina Corretora · CRECI-SP ativo\n\n#siglasimoveis #hmp #his #imoveissp #investimentoimobiliario #airbnbsp #decretoairbnb #apartamentosaopaulo #martinacorretora #r2v",
+      "arquivos": [
+        "s6/seg_siglas/slide_1.jpg",
+        "s6/seg_siglas/slide_2.jpg",
+        "s6/seg_siglas/slide_3.jpg",
+        "s6/seg_siglas/slide_4.jpg",
+        "s6/seg_siglas/slide_5.jpg",
+        "s6/seg_siglas/slide_6.jpg",
+        "s6/seg_siglas/slide_7.jpg"
+      ]
+    },
+    "s6_qua_moema": {
+      "tipo": "reel",
+      "quando": "2026-08-06 12:00 (SP)",
+      "legenda": "Studio em Moema abaixo de R$ 500 mil, pronto pra morar. 👀\n\nO Nex One Jurupis (Torre 2) entrega agora, 30/07. Studios novos de 34 a 36 m², a partir de R$ 485.393, num bairro que quase não tem vacância de aluguel. Serve pra morar bem na Zona Sul e pra renda fixa de locação.\n\nRestam poucas unidades nesse valor. Comenta MOEMA que eu te mando a lista completa — metragem, andar e preço de cada studio — no direct. 👇\n\n—\nMartina Corretora · CRECI-SP ativo\n\n#imoveismoema #studiomoema #investimentoimobiliario #moemasp #apartamentosaopaulo #imoveissp #rendapassiva #zonasul #martinacorretora #reels",
+      "arquivos": [
+        "s6/qua_moema_reel/reel.mp4"
+      ]
+    },
+    "s6_sex_hum": {
+      "tipo": "feed",
+      "quando": "2026-08-08 12:00 (SP)",
+      "legenda": "A primeira pergunta que eu faço não é \"quanto você tem\". É \"você quer morar ou investir?\".\n\nPorque o imóvel certo pra uma coisa costuma ser o errado pra outra. Pra morar eu olho luz, silêncio, trajeto. Pra investir eu olho sigla, preço por m², vacância. Frieza de planilha de um lado, o seu dia a dia do outro.\n\nMe conta o seu objetivo no direct que eu te mostro o que faz sentido — de verdade, não o que dá mais comissão. 💬\n\n—\nMartina Corretora · CRECI-SP ativo\n\n#curadoriaimobiliaria #moraroninvestir #imoveissp #investimentoimobiliario #comprarapartamento #zonasul #martinacorretora #consultoriaimobiliaria #moema #studiosp",
+      "arquivos": [
+        "s6/sex_hum/slide_1.jpg",
+        "s6/sex_hum/slide_2.jpg",
+        "s6/sex_hum/slide_3.jpg",
+        "s6/sex_hum/slide_4.jpg",
+        "s6/sex_hum/slide_5.jpg",
+        "s6/sex_hum/slide_6.jpg",
+        "s6/sex_hum/slide_7.jpg"
       ]
     }
   }
