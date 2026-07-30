@@ -40,6 +40,7 @@ on:
           - s6_stories_sex
           - s6_stories_sab
           - s6_stories_dom
+          - s7_qua_caiubi
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -76,6 +77,8 @@ on:
     - cron: "0 12 8 8 *"   # sex 08/08 - stories
     - cron: "0 12 9 8 *"   # sab 09/08 - stories
     - cron: "0 12 10 8 *"  # dom 10/08 - stories
+    # === SEMANA 7 — Feed 12:00 SP = 15:00 UTC ===
+    - cron: "0 15 13 8 *"  # qua 13/08 - REEL tour Caiubi (Perdizes)
 
 jobs:
   publicar:
@@ -123,6 +126,7 @@ jobs:
               "0 12 8 8 *")  echo "slot=s6_stories_sex" >> "$GITHUB_OUTPUT" ;;
               "0 12 9 8 *")  echo "slot=s6_stories_sab" >> "$GITHUB_OUTPUT" ;;
               "0 12 10 8 *") echo "slot=s6_stories_dom" >> "$GITHUB_OUTPUT" ;;
+              "0 15 13 8 *") echo "slot=s7_qua_caiubi" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
