@@ -189,6 +189,69 @@
         "s6/sex_hum/slide_6.jpg",
         "s6/sex_hum/slide_7.jpg"
       ]
+    },
+    "s6_stories_seg": {
+      "tipo": "story",
+      "quando": "2026-08-04 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/1_seg_04-08/story_1.jpg",
+        "s6/stories/1_seg_04-08/story_2.jpg",
+        "s6/stories/1_seg_04-08/story_3.jpg"
+      ]
+    },
+    "s6_stories_ter": {
+      "tipo": "story",
+      "quando": "2026-08-05 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/2_ter_05-08/story_1.jpg",
+        "s6/stories/2_ter_05-08/story_2.jpg",
+        "s6/stories/2_ter_05-08/story_3.jpg"
+      ]
+    },
+    "s6_stories_qua": {
+      "tipo": "story",
+      "quando": "2026-08-06 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/3_qua_06-08/story_1.jpg",
+        "s6/stories/3_qua_06-08/story_2.jpg",
+        "s6/stories/3_qua_06-08/story_3.jpg"
+      ]
+    },
+    "s6_stories_qui": {
+      "tipo": "story",
+      "quando": "2026-08-07 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/4_qui_07-08/story_1.jpg",
+        "s6/stories/4_qui_07-08/story_2.jpg",
+        "s6/stories/4_qui_07-08/story_3.jpg"
+      ]
+    },
+    "s6_stories_sex": {
+      "tipo": "story",
+      "quando": "2026-08-08 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/5_sex_08-08/story_1.jpg",
+        "s6/stories/5_sex_08-08/story_2.jpg",
+        "s6/stories/5_sex_08-08/story_3.jpg"
+      ]
+    },
+    "s6_stories_sab": {
+      "tipo": "story",
+      "quando": "2026-08-09 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/6_sab_09-08/story_1.jpg",
+        "s6/stories/6_sab_09-08/story_2.jpg",
+        "s6/stories/6_sab_09-08/story_3.jpg"
+      ]
+    },
+    "s6_stories_dom": {
+      "tipo": "story",
+      "quando": "2026-08-10 09:00 (SP)",
+      "arquivos": [
+        "s6/stories/7_dom_10-08/story_1.jpg",
+        "s6/stories/7_dom_10-08/story_2.jpg",
+        "s6/stories/7_dom_10-08/story_3.jpg"
+      ]
     }
   }
 }

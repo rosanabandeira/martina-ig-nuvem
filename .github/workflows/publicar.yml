@@ -33,6 +33,13 @@ on:
           - s6_seg_siglas
           - s6_qua_moema
           - s6_sex_hum
+          - s6_stories_seg
+          - s6_stories_ter
+          - s6_stories_qua
+          - s6_stories_qui
+          - s6_stories_sex
+          - s6_stories_sab
+          - s6_stories_dom
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -61,6 +68,14 @@ on:
     - cron: "0 15 4 8 *"   # seg 04/08 - EDU carrossel siglas
     - cron: "0 15 6 8 *"   # qua 06/08 - REEL oferta Moema
     - cron: "0 15 8 8 *"   # sex 08/08 - HUM carrossel morar/investir
+    # === SEMANA 6 — Stories 09:00 SP = 12:00 UTC (04 a 10/08) ===
+    - cron: "0 12 4 8 *"   # seg 04/08 - stories
+    - cron: "0 12 5 8 *"   # ter 05/08 - stories
+    - cron: "0 12 6 8 *"   # qua 06/08 - stories
+    - cron: "0 12 7 8 *"   # qui 07/08 - stories
+    - cron: "0 12 8 8 *"   # sex 08/08 - stories
+    - cron: "0 12 9 8 *"   # sab 09/08 - stories
+    - cron: "0 12 10 8 *"  # dom 10/08 - stories
 
 jobs:
   publicar:
@@ -101,6 +116,13 @@ jobs:
               "0 15 4 8 *")  echo "slot=s6_seg_siglas" >> "$GITHUB_OUTPUT" ;;
               "0 15 6 8 *")  echo "slot=s6_qua_moema"  >> "$GITHUB_OUTPUT" ;;
               "0 15 8 8 *")  echo "slot=s6_sex_hum"    >> "$GITHUB_OUTPUT" ;;
+              "0 12 4 8 *")  echo "slot=s6_stories_seg" >> "$GITHUB_OUTPUT" ;;
+              "0 12 5 8 *")  echo "slot=s6_stories_ter" >> "$GITHUB_OUTPUT" ;;
+              "0 12 6 8 *")  echo "slot=s6_stories_qua" >> "$GITHUB_OUTPUT" ;;
+              "0 12 7 8 *")  echo "slot=s6_stories_qui" >> "$GITHUB_OUTPUT" ;;
+              "0 12 8 8 *")  echo "slot=s6_stories_sex" >> "$GITHUB_OUTPUT" ;;
+              "0 12 9 8 *")  echo "slot=s6_stories_sab" >> "$GITHUB_OUTPUT" ;;
+              "0 12 10 8 *") echo "slot=s6_stories_dom" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
