@@ -42,6 +42,10 @@ on:
           - s6_stories_dom
           - s7_qua_caiubi
           - s8_qui_momento
+          - s8_seg_corretor
+          - s8_ter_5pontos
+          - s8_qua_conta
+          - s8_sex_angelica
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -80,8 +84,12 @@ on:
     - cron: "0 12 10 8 *"  # dom 10/08 - stories
     # === SEMANA 7 — Feed 12:00 SP = 15:00 UTC ===
     - cron: "0 15 13 8 *"  # qua 13/08 - REEL tour Caiubi (Perdizes)
-    # === SEMANA BUYER-FIRST — A/B teste voz — 12:30 SP = 15:30 UTC ===
-    - cron: "30 15 13 8 *"  # qui 13/08 - REEL "momento certo" (com voz da Rosana, teste A/B)
+    # === SEMANA BUYER-FIRST (10-14/08) ===
+    - cron: "0 22 10 8 *"   # seg 10/08 19:00 SP - REEL desconfianca do corretor
+    - cron: "30 15 11 8 *"  # ter 11/08 12:30 SP - CARROSSEL 5 pontos
+    - cron: "0 22 12 8 *"   # qua 12/08 19:00 SP - REEL "a conta nao fecha"
+    - cron: "30 15 13 8 *"  # qui 13/08 12:30 SP - REEL "momento certo" (com voz da Rosana, teste A/B)
+    - cron: "0 22 14 8 *"   # sex 14/08 19:00 SP - CARROSSEL oferta Angelica
 
 jobs:
   publicar:
@@ -131,6 +139,10 @@ jobs:
               "0 12 10 8 *") echo "slot=s6_stories_dom" >> "$GITHUB_OUTPUT" ;;
               "0 15 13 8 *") echo "slot=s7_qua_caiubi" >> "$GITHUB_OUTPUT" ;;
               "30 15 13 8 *") echo "slot=s8_qui_momento" >> "$GITHUB_OUTPUT" ;;
+              "0 22 10 8 *")  echo "slot=s8_seg_corretor" >> "$GITHUB_OUTPUT" ;;
+              "30 15 11 8 *") echo "slot=s8_ter_5pontos" >> "$GITHUB_OUTPUT" ;;
+              "0 22 12 8 *")  echo "slot=s8_qua_conta" >> "$GITHUB_OUTPUT" ;;
+              "0 22 14 8 *")  echo "slot=s8_sex_angelica" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
