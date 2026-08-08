@@ -312,6 +312,34 @@
         "s8/sex_angelica/slide_6.jpg",
         "s8/sex_angelica/slide_7.jpg"
       ]
+    },
+    "s9_qua_fgts_selic": {
+      "tipo": "feed",
+      "quando": "2026-08-19 12:30 (SP)",
+      "legenda": "FGTS Faixa 4 e Selic: já dá pra sair do aluguel em 2026?\n\nDuas mudanças de 2026 — a Faixa 4 do FGTS e a Selic em queda — aproximaram a parcela do financiamento do valor do aluguel em várias regiões de SP. Não é mágica: ainda precisa de entrada e renda comprovável, e cada banco reprecifica no seu tempo.\n\nMas vale revisitar a conta — principalmente se você está pagando aluguel há anos achando que financiar \"ainda não é pra agora\".\n\n👉 Me diz quanto você paga de aluguel hoje que eu simulo se já dá pra sair dele.\n\n— Martina Corretora · CRECI-SP ativo\n#fgts #financiamentoimobiliario #saidoaluguel #investimentoimobiliario #imoveissp #comprarimovel #rendapassiva #creditoimobiliario",
+      "arquivos": [
+        "s9/qua_fgts_selic/slide_1.jpg",
+        "s9/qua_fgts_selic/slide_2.jpg",
+        "s9/qua_fgts_selic/slide_3.jpg",
+        "s9/qua_fgts_selic/slide_4.jpg",
+        "s9/qua_fgts_selic/slide_5.jpg",
+        "s9/qua_fgts_selic/slide_6.jpg",
+        "s9/qua_fgts_selic/slide_7.jpg"
+      ]
+    },
+    "s9_sex_studio_pinheiros": {
+      "tipo": "feed",
+      "quando": "2026-08-21 12:30 (SP)",
+      "legenda": "Onde o studio mais valoriza em SP — ranking 2026\n\nO tipo de imóvel que mais valorizou em São Paulo nos últimos 12 meses não foi a cobertura nem o apartamento grande — foi o studio. +7,3% (FipeZap 2026), quase o dobro da média geral do mercado.\n\nDentro desse grupo, Pinheiros puxa o ranking. Um exemplo real: studio no Very Faria Lima, ~24,4 m², a partir de R$ 370 mil (categoria HIS — renda fixa, sem Airbnb, com teto de renda pro comprador).\n\n👉 Quer ver os studios disponíveis em Pinheiros? Me chama no WhatsApp.\n\n— Martina Corretora · CRECI-SP ativo\n#studiosp #pinheiros #investimentoimobiliario #valorizacaoimobiliaria #imoveissp #comprarimovel #rendapassiva #mercadoimobiliario",
+      "arquivos": [
+        "s9/sex_studio_pinheiros/slide_1.jpg",
+        "s9/sex_studio_pinheiros/slide_2.jpg",
+        "s9/sex_studio_pinheiros/slide_3.jpg",
+        "s9/sex_studio_pinheiros/slide_4.jpg",
+        "s9/sex_studio_pinheiros/slide_5.jpg",
+        "s9/sex_studio_pinheiros/slide_6.jpg",
+        "s9/sex_studio_pinheiros/slide_7.jpg"
+      ]
     }
   }
 }
