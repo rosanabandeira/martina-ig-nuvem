@@ -46,6 +46,8 @@ on:
           - s8_ter_5pontos
           - s8_qua_conta
           - s8_sex_angelica
+          - anfitriao_post_27_08
+          - anfitriao_carrossel_03_09
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -90,6 +92,9 @@ on:
     - cron: "0 22 12 8 *"   # qua 12/08 19:00 SP - REEL "a conta nao fecha"
     - cron: "30 15 13 8 *"  # qui 13/08 12:30 SP - REEL "momento certo" (com voz da Rosana, teste A/B)
     - cron: "0 22 14 8 *"   # sex 14/08 19:00 SP - CARROSSEL oferta Angelica
+    # === PARCERIA ANFITRIÃO PRIME — Feed 12:00 SP = 15:00 UTC ===
+    - cron: "0 15 27 8 *"   # qui 27/08 - post estatico parceria
+    - cron: "0 15 3 9 *"    # qui 03/09 - carrossel parceria
 
 jobs:
   publicar:
@@ -143,6 +148,8 @@ jobs:
               "30 15 11 8 *") echo "slot=s8_ter_5pontos" >> "$GITHUB_OUTPUT" ;;
               "0 22 12 8 *")  echo "slot=s8_qua_conta" >> "$GITHUB_OUTPUT" ;;
               "0 22 14 8 *")  echo "slot=s8_sex_angelica" >> "$GITHUB_OUTPUT" ;;
+              "0 15 27 8 *")  echo "slot=anfitriao_post_27_08" >> "$GITHUB_OUTPUT" ;;
+              "0 15 3 9 *")   echo "slot=anfitriao_carrossel_03_09" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"

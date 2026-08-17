@@ -2,6 +2,27 @@
   "base_url": "https://martinacorretora.com.br/ig",
   "semana": "S6 (04-08/08/2026) + historico S4/S5",
   "slots": {
+    "anfitriao_post_27_08": {
+      "tipo": "feed",
+      "quando": "2026-08-27 12:00 (SP)",
+      "legenda": "Seu imóvel pode render mais quando cada etapa do investimento é pensada estrategicamente. 🏡📈\n\nLá no @anfitriao_prime, eles cuidam da reforma, preparação, locação e gestão profissional do seu imóvel. E agora, em parceria com a Martina Corretora, ampliamos essa estratégia desde o início: a seleção de imóveis estrategicamente posicionados em São Paulo (próximos a geradores de demanda como metrô, hospitais, universidades e centros comerciais), pensando no potencial de retorno do investimento.\n\nAnfitrião Prime + Martina Corretora: uma parceria para potencializar o seu investimento e o retorno sobre o seu imóvel.\n\n#InvestimentoImobiliário #Rentabilidade #Locação #gestaodeimoveis",
+      "arquivos": [
+        "anfitriao_prime_parceria/post_27_08/feed.jpg"
+      ]
+    },
+    "anfitriao_carrossel_03_09": {
+      "tipo": "feed",
+      "quando": "2026-09-03 12:00 (SP)",
+      "legenda": "DA COMPRA À RENTABILIZAÇÃO. 🏡📈\n\nInvestir em um imóvel vai muito além de encontrar uma boa oportunidade. A escolha, a preparação e a gestão fazem parte da estratégia para potencializar seus resultados. Por isso, @martina.investimentos e @anfitriao_prime se unem para conectar diferentes etapas dessa jornada.\n\n🔹 Martina Corretora: seleciona imóveis estrategicamente posicionados, próximos a geradores de demanda como metrô, hospitais, universidades e centros comerciais, pensando no potencial de retorno do investimento.\n🔹 Anfitrião Prime: cuida da reforma, preparação, locação e gestão do imóvel como um todo.\n\nDuas empresas especialistas. Um caminho mais completo para potencializar seu investimento.\n\nQuer saber mais sobre essa parceria? Fale com a gente.\n\n#InvestimentoImobiliário #Rentabilidade #Imóveis #Locação #AnfitriãoPrime #MartinaCorretora",
+      "arquivos": [
+        "anfitriao_prime_parceria/carrossel_03_09/slide_1.jpg",
+        "anfitriao_prime_parceria/carrossel_03_09/slide_2.jpg",
+        "anfitriao_prime_parceria/carrossel_03_09/slide_3.jpg",
+        "anfitriao_prime_parceria/carrossel_03_09/slide_4.jpg",
+        "anfitriao_prime_parceria/carrossel_03_09/slide_5.jpg",
+        "anfitriao_prime_parceria/carrossel_03_09/slide_6.jpg"
+      ]
+    },
     "stories_qua22": {
       "tipo": "story",
       "quando": "2026-07-22 (publicacao manual hoje)",
