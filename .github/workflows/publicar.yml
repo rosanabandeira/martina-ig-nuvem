@@ -48,6 +48,19 @@ on:
           - s8_sex_angelica
           - anfitriao_post_27_08
           - anfitriao_carrossel_03_09
+          - s8_stories_ter11
+          - s8_stories_qua12
+          - s8_stories_qui13
+          - s8_stories_sex14
+          - s8_stories_sab15
+          - s8_stories_dom16
+          - s9_stories_seg17
+          - s9_stories_ter18
+          - s9_stories_qua19
+          - s9_stories_qui20
+          - s9_stories_sex21
+          - s9_qua_fgts_selic
+          - s9_sex_studio_pinheiros
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -95,6 +108,14 @@ on:
     # === PARCERIA ANFITRIÃO PRIME — Feed 12:00 SP = 15:00 UTC ===
     - cron: "0 15 27 8 *"   # qui 27/08 - post estatico parceria
     - cron: "0 15 3 9 *"    # qui 03/09 - carrossel parceria
+    # === SEMANA 9 — Stories 09:00 SP = 12:00 UTC (corrigido 18/08, faltavam no despertador) ===
+    - cron: "0 12 18 8 *"   # ter 18/08 - stories
+    - cron: "0 12 19 8 *"   # qua 19/08 - stories
+    - cron: "0 12 20 8 *"   # qui 20/08 - stories
+    - cron: "0 12 21 8 *"   # sex 21/08 - stories
+    # === SEMANA 9 — Feed 12:30 SP = 15:30 UTC ===
+    - cron: "30 15 19 8 *"  # qua 19/08 - FGTS/Selic
+    - cron: "30 15 21 8 *"  # sex 21/08 - Studio Pinheiros
 
 jobs:
   publicar:
@@ -150,6 +171,12 @@ jobs:
               "0 22 14 8 *")  echo "slot=s8_sex_angelica" >> "$GITHUB_OUTPUT" ;;
               "0 15 27 8 *")  echo "slot=anfitriao_post_27_08" >> "$GITHUB_OUTPUT" ;;
               "0 15 3 9 *")   echo "slot=anfitriao_carrossel_03_09" >> "$GITHUB_OUTPUT" ;;
+              "0 12 18 8 *")  echo "slot=s9_stories_ter18" >> "$GITHUB_OUTPUT" ;;
+              "0 12 19 8 *")  echo "slot=s9_stories_qua19" >> "$GITHUB_OUTPUT" ;;
+              "0 12 20 8 *")  echo "slot=s9_stories_qui20" >> "$GITHUB_OUTPUT" ;;
+              "0 12 21 8 *")  echo "slot=s9_stories_sex21" >> "$GITHUB_OUTPUT" ;;
+              "30 15 19 8 *") echo "slot=s9_qua_fgts_selic" >> "$GITHUB_OUTPUT" ;;
+              "30 15 21 8 *") echo "slot=s9_sex_studio_pinheiros" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
