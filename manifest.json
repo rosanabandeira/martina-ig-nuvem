@@ -1,6 +1,6 @@
 {
   "base_url": "https://martinacorretora.com.br/ig",
-  "semana": "S6 (04-08/08/2026) + historico S4/S5",
+  "semana": "S13 (02-15/10/2026) + historico",
   "slots": {
     "anfitriao_post_27_08": {
       "tipo": "feed",
@@ -562,6 +562,225 @@
       "legenda": "Studio de 28m² no Nex One Japão Liberdade por R$336 mil (entrada de R$34 mil).\n\nDe Airbnb, a cidade rende em média R$3.500 a R$5.500/mês (não temos dado específico do bairro, é a média de SP) — a entrada se paga entre 6 e 10 meses.\n\nComenta CONTA que eu te mando a planilha certinha, com o preço de hoje.\n\n#investimentoimobiliario #liberdade #airbnbsaopaulo #rendapassiva",
       "arquivos": [
         "s12/seg_conta_liberdade/reel.mp4"
+      ]
+    },
+    "s13_sex02_entrada": {
+      "tipo": "feed",
+      "quando": "2026-10-02 12:00 (SP)",
+      "legenda": "Eu achava que precisava ter tudo guardado pra começar. Guardando, guardando... até eu descobrir que ninguém compra assim — todo mundo entra com uma entrada parcelada e vai pagando o resto junto com o imóvel valorizando.\n\nVc também tá esperando ter \"tudo\" antes de começar? Ou já parou pra ver quanto realmente falta?\n\n#investimentoimobiliario #imoveissp #primeiroimovel #entradaparcelada",
+      "arquivos": [
+        "s13/peca1/slide_1.jpg",
+        "s13/peca1/slide_2.jpg",
+        "s13/peca1/slide_3.jpg",
+        "s13/peca1/slide_4.jpg",
+        "s13/peca1/slide_5.jpg",
+        "s13/peca1/slide_6.jpg",
+        "s13/peca1/slide_7.jpg"
+      ]
+    },
+    "s13_seg05_duaspessoas": {
+      "tipo": "reel",
+      "quando": "2026-10-05 12:00 (SP)",
+      "legenda": "Duas pessoas. Mesmo salário. Uma comprou. A outra disse \"ano que vem eu vejo\". A diferença não foi sorte — foi quando cada uma decidiu.\n\nEm qual das duas vc se vê agora?\n\n#investimentoimobiliario #imoveissp #valorizacaoimobiliaria",
+      "arquivos": [
+        "s13/peca3/reel.mp4"
+      ]
+    },
+    "s13_qua07_aluguel": {
+      "tipo": "feed",
+      "quando": "2026-10-07 12:00 (SP)",
+      "legenda": "Paguei aluguel um tempo bom achando que \"era assim que funciona\" — que casa própria era coisa de quem já tinha dinheiro sobrando. Até eu fazer a conta de quanto eu já tinha pago: R$24.000 em 12 meses. E quanto isso já dava de entrada: R$33.132 já garante a entrada de uma unidade real, com desconto de lançamento.\n\nAlguém aí já fez essa conta e não gostou do resultado?\n\n#investimentoimobiliario #imoveissp #primeiroimovel #entradaparcelada",
+      "arquivos": [
+        "s13/peca2/slide_1.jpg",
+        "s13/peca2/slide_2.jpg",
+        "s13/peca2/slide_3.jpg",
+        "s13/peca2/slide_4.jpg",
+        "s13/peca2/slide_5.jpg",
+        "s13/peca2/slide_6.jpg",
+        "s13/peca2/slide_7.jpg"
+      ]
+    },
+    "s13_sex09_pergunta": {
+      "tipo": "reel",
+      "quando": "2026-10-09 12:00 (SP)",
+      "legenda": "Tinha uma pergunta que eu não fazia porque achava que ia parecer que eu não entendia nada. E a resposta mudou a decisão inteira.\n\nQual é a pergunta que vc tá segurando por vergonha de parecer que não entende?\n\n#investimentoimobiliario #imoveissp #primeiroimovel",
+      "arquivos": [
+        "s13/peca4/reel.mp4"
+      ]
+    },
+    "s13_ter13_achadinho": {
+      "tipo": "feed",
+      "quando": "2026-10-13 12:00 (SP)",
+      "legenda": "Quase caí num preço bom demais pra ser verdade. O número me fez decidir rápido demais — até eu olhar com calma e ver o que o preço \"bom demais\" escondia. Documentação registrada, histórico de entrega da incorporadora e fluxo de pagamento sem pegadinha: 3 coisas simples que separam achadinho de decisão certa.\n\nVc já quase caiu num \"achadinho\" só porque o preço parecia bom demais?\n\n#investimentoimobiliario #imoveissp #comprarnaplanta",
+      "arquivos": [
+        "s13/peca5/slide_1.jpg",
+        "s13/peca5/slide_2.jpg",
+        "s13/peca5/slide_3.jpg",
+        "s13/peca5/slide_4.jpg",
+        "s13/peca5/slide_5.jpg",
+        "s13/peca5/slide_6.jpg",
+        "s13/peca5/slide_7.jpg"
+      ]
+    },
+    "s13_stories_0210": {
+      "tipo": "story",
+      "quando": "2026-10-02 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/02-10/story_1.jpg",
+        "s13/stories/02-10/story_2.jpg",
+        "s13/stories/02-10/story_3.jpg"
+      ]
+    },
+    "s13_postnovo_0210": {
+      "tipo": "story",
+      "quando": "2026-10-02 12:30 (SP)",
+      "arquivos": [
+        "s13/stories/02-10/story_post_novo.jpg"
+      ]
+    },
+    "s13_stories_0310": {
+      "tipo": "story",
+      "quando": "2026-10-03 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/03-10/story_1.jpg",
+        "s13/stories/03-10/story_2.jpg",
+        "s13/stories/03-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_0410": {
+      "tipo": "story",
+      "quando": "2026-10-04 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/04-10/story_1.jpg",
+        "s13/stories/04-10/story_2.jpg",
+        "s13/stories/04-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_0510": {
+      "tipo": "story",
+      "quando": "2026-10-05 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/05-10/story_1.jpg",
+        "s13/stories/05-10/story_2.jpg",
+        "s13/stories/05-10/story_3.jpg"
+      ]
+    },
+    "s13_postnovo_0510": {
+      "tipo": "story",
+      "quando": "2026-10-05 12:30 (SP)",
+      "arquivos": [
+        "s13/stories/05-10/story_post_novo.jpg"
+      ]
+    },
+    "s13_stories_0610": {
+      "tipo": "story",
+      "quando": "2026-10-06 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/06-10/story_1.jpg",
+        "s13/stories/06-10/story_2.jpg",
+        "s13/stories/06-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_0710": {
+      "tipo": "story",
+      "quando": "2026-10-07 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/07-10/story_1.jpg",
+        "s13/stories/07-10/story_2.jpg",
+        "s13/stories/07-10/story_3.jpg"
+      ]
+    },
+    "s13_postnovo_0710": {
+      "tipo": "story",
+      "quando": "2026-10-07 12:30 (SP)",
+      "arquivos": [
+        "s13/stories/07-10/story_post_novo.jpg"
+      ]
+    },
+    "s13_stories_0810": {
+      "tipo": "story",
+      "quando": "2026-10-08 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/08-10/story_1.jpg",
+        "s13/stories/08-10/story_2.jpg",
+        "s13/stories/08-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_0910": {
+      "tipo": "story",
+      "quando": "2026-10-09 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/09-10/story_1.jpg",
+        "s13/stories/09-10/story_2.jpg",
+        "s13/stories/09-10/story_3.jpg"
+      ]
+    },
+    "s13_postnovo_0910": {
+      "tipo": "story",
+      "quando": "2026-10-09 12:30 (SP)",
+      "arquivos": [
+        "s13/stories/09-10/story_post_novo.jpg"
+      ]
+    },
+    "s13_stories_1010": {
+      "tipo": "story",
+      "quando": "2026-10-10 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/10-10/story_1.jpg",
+        "s13/stories/10-10/story_2.jpg",
+        "s13/stories/10-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_1110": {
+      "tipo": "story",
+      "quando": "2026-10-11 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/11-10/story_1.jpg",
+        "s13/stories/11-10/story_2.jpg",
+        "s13/stories/11-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_1210": {
+      "tipo": "story",
+      "quando": "2026-10-12 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/12-10/story_1.jpg",
+        "s13/stories/12-10/story_2.jpg",
+        "s13/stories/12-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_1310": {
+      "tipo": "story",
+      "quando": "2026-10-13 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/13-10/story_1.jpg",
+        "s13/stories/13-10/story_2.jpg",
+        "s13/stories/13-10/story_3.jpg"
+      ]
+    },
+    "s13_postnovo_1310": {
+      "tipo": "story",
+      "quando": "2026-10-13 12:30 (SP)",
+      "arquivos": [
+        "s13/stories/13-10/story_post_novo.jpg"
+      ]
+    },
+    "s13_stories_1410": {
+      "tipo": "story",
+      "quando": "2026-10-14 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/14-10/story_1.jpg",
+        "s13/stories/14-10/story_2.jpg",
+        "s13/stories/14-10/story_3.jpg"
+      ]
+    },
+    "s13_stories_1510": {
+      "tipo": "story",
+      "quando": "2026-10-15 09:00 (SP)",
+      "arquivos": [
+        "s13/stories/15-10/story_1.jpg",
+        "s13/stories/15-10/story_2.jpg",
+        "s13/stories/15-10/story_3.jpg"
       ]
     }
   }
