@@ -97,6 +97,20 @@ on:
           - s13_postnovo_1310
           - s13_stories_1410
           - s13_stories_1510
+          - s13_stories_1610
+          - s13_stories_1710
+          - s13_stories_1810
+          - s13_stories_1910
+          - s13_stories_2010
+          - s13_stories_2110
+          - s13_stories_2210
+          - s13_stories_2310
+          - s13_stories_2410
+          - s13_stories_2510
+          - s13_stories_2610
+          - s13_stories_2710
+          - s13_stories_2810
+          - s13_stories_2910
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -182,6 +196,20 @@ on:
     - cron: "30 15 13 10 *"  # 13/10 12:30 SP - story post novo
     - cron: "0 12 14 10 *"  # 14/10 09:00 SP - 3 stories
     - cron: "0 12 15 10 *"  # 15/10 09:00 SP - 3 stories
+    - cron: "0 12 16 10 *"  # 16/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 17 10 *"  # 17/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 18 10 *"  # 18/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 19 10 *"  # 19/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 20 10 *"  # 20/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 21 10 *"  # 21/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 22 10 *"  # 22/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 23 10 *"  # 23/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 24 10 *"  # 24/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 25 10 *"  # 25/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 26 10 *"  # 26/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 27 10 *"  # 27/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 28 10 *"  # 28/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 12 29 10 *"  # 29/10 09:00 SP - 3 stories (leva 2)
 
 jobs:
   publicar:
@@ -271,6 +299,20 @@ jobs:
               "30 15 13 10 *") echo "slot=s13_postnovo_1310" >> "$GITHUB_OUTPUT" ;;
               "0 12 14 10 *") echo "slot=s13_stories_1410" >> "$GITHUB_OUTPUT" ;;
               "0 12 15 10 *") echo "slot=s13_stories_1510" >> "$GITHUB_OUTPUT" ;;
+              "0 12 16 10 *") echo "slot=s13_stories_1610" >> "$GITHUB_OUTPUT" ;;
+              "0 12 17 10 *") echo "slot=s13_stories_1710" >> "$GITHUB_OUTPUT" ;;
+              "0 12 18 10 *") echo "slot=s13_stories_1810" >> "$GITHUB_OUTPUT" ;;
+              "0 12 19 10 *") echo "slot=s13_stories_1910" >> "$GITHUB_OUTPUT" ;;
+              "0 12 20 10 *") echo "slot=s13_stories_2010" >> "$GITHUB_OUTPUT" ;;
+              "0 12 21 10 *") echo "slot=s13_stories_2110" >> "$GITHUB_OUTPUT" ;;
+              "0 12 22 10 *") echo "slot=s13_stories_2210" >> "$GITHUB_OUTPUT" ;;
+              "0 12 23 10 *") echo "slot=s13_stories_2310" >> "$GITHUB_OUTPUT" ;;
+              "0 12 24 10 *") echo "slot=s13_stories_2410" >> "$GITHUB_OUTPUT" ;;
+              "0 12 25 10 *") echo "slot=s13_stories_2510" >> "$GITHUB_OUTPUT" ;;
+              "0 12 26 10 *") echo "slot=s13_stories_2610" >> "$GITHUB_OUTPUT" ;;
+              "0 12 27 10 *") echo "slot=s13_stories_2710" >> "$GITHUB_OUTPUT" ;;
+              "0 12 28 10 *") echo "slot=s13_stories_2810" >> "$GITHUB_OUTPUT" ;;
+              "0 12 29 10 *") echo "slot=s13_stories_2910" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
