@@ -908,6 +908,72 @@
         "s13/stories_leva2/29-10/story_2.jpg",
         "s13/stories_leva2/29-10/story_3.jpg"
       ]
+    },
+    "s13_qui15_perdizes": {
+      "tipo": "feed",
+      "quando": "2026-10-15 12:00 (SP)",
+      "legenda": "Por que tanta gente quer morar em Perdizes? Parque da Água Branca colado no bairro, Allianz Parque a pé, a estação Perdizes da Linha 6 Laranja, o Sesc Pompeia ali do lado e rua residencial de quem gosta de ficar.\n\nE tem lançamento lá: o Nex One Caiubí, a 850 m do Allianz Parque, com entrada de 10% na condição de lançamento.\n\nVc moraria em Perdizes? Me conta aqui embaixo.\n\nFotos do bairro: Pedu0303, Parlapatá (CC BY-SA 4.0), Leonef (CC BY-SA 4.0), LuanCampSouza93 e Joalpe (CC BY-SA 4.0), via Wikimedia Commons.\n\n#perdizes #imoveissp #investimentoimobiliario #primeiroimovel",
+      "arquivos": [
+        "s13/feed_b/carrossel_perdizes/slide_1.jpg",
+        "s13/feed_b/carrossel_perdizes/slide_2.jpg",
+        "s13/feed_b/carrossel_perdizes/slide_3.jpg",
+        "s13/feed_b/carrossel_perdizes/slide_4.jpg",
+        "s13/feed_b/carrossel_perdizes/slide_5.jpg",
+        "s13/feed_b/carrossel_perdizes/slide_6.jpg",
+        "s13/feed_b/carrossel_perdizes/slide_7.jpg"
+      ]
+    },
+    "s13_seg19_obra": {
+      "tipo": "reel",
+      "quando": "2026-10-19 12:00 (SP)",
+      "legenda": "Comprar na planta, sem mistério: no lançamento vc garante o preço de hoje. Durante a obra, paga a entrada parcelada direto com a incorporadora, corrigida pelo INCC. Na entrega das chaves entra o financiamento do saldo.\n\nQual parte disso ainda te deixa com dúvida?\n\nFotos de obra: Gaf.arq (CC BY-SA 3.0), Geogast (CC BY 4.0) e Vrsooo (CC BY-SA 4.0), via Wikimedia Commons.\n\n#comprarnaplanta #imoveissp #primeiroimovel #investimentoimobiliario",
+      "arquivos": [
+        "s13/feed_b/reel_obra/reel.mp4"
+      ]
+    },
+    "s13_qua21_pinheiros": {
+      "tipo": "feed",
+      "quando": "2026-10-21 12:00 (SP)",
+      "legenda": "Morar em Pinheiros é resolver a vida a pé: Largo da Batata com metrô do lado, padaria de bairro, bar e restaurante na esquina, Vila Madalena a poucos minutos e a Faria Lima pra trabalhar.\n\nE custa menos do que parece: no Nex One Capote Valente tem studio de 25 m² a partir de R$ 336.389 (tabela de setembro/2026; unidade HIS, com regra de renda familiar).\n\nO que vc mais faria a pé em Pinheiros?\n\nFotos do bairro: LuanCampSouza93, Mtvdanilo (CC BY 4.0), Arte Fora do Museu (CC BY 2.0) e Agent010 (CC BY-SA 4.0), via Wikimedia Commons.\n\n#pinheiros #imoveissp #investimentoimobiliario #studiosp",
+      "arquivos": [
+        "s13/feed_b/carrossel_pinheiros/slide_1.jpg",
+        "s13/feed_b/carrossel_pinheiros/slide_2.jpg",
+        "s13/feed_b/carrossel_pinheiros/slide_3.jpg",
+        "s13/feed_b/carrossel_pinheiros/slide_4.jpg",
+        "s13/feed_b/carrossel_pinheiros/slide_5.jpg",
+        "s13/feed_b/carrossel_pinheiros/slide_6.jpg",
+        "s13/feed_b/carrossel_pinheiros/slide_7.jpg"
+      ]
+    },
+    "s13_sex23_decorado": {
+      "tipo": "reel",
+      "quando": "2026-10-23 12:00 (SP)",
+      "legenda": "Vai visitar um decorado? Leva essas 3 perguntas: o que vem com o apê (e o que é só decoração), onde bate o sol naquela unidade e o que vai ter construído na frente.\n\nSalva pra levar na visita. Qual pergunta vc acrescentaria?\n\nFoto de obra: Geogast (CC BY 4.0), via Wikimedia Commons.\n\n#decorado #comprarnaplanta #imoveissp #primeiroimovel",
+      "arquivos": [
+        "s13/feed_b/reel_decorado/reel.mp4"
+      ]
+    },
+    "s13_ter27_itaim": {
+      "tipo": "feed",
+      "quando": "2026-10-27 12:00 (SP)",
+      "legenda": "Itaim Bibi: onde SP trabalha e janta. Parque do Povo pra correr de manhã, Faria Lima a pé, rooftop e restaurante a poucas quadras e rua arborizada entre as avenidas.\n\nPronto pra morar: Nex One João Cachoeira, 1 dorm de 24,17 m² por R$ 392.578. Na planta: Nex One Bandeira Paulista, studio de 24 m² a partir de R$ 500.211. (Tabela de setembro/2026; unidades HIS e HMP, com regra de renda familiar.)\n\nPronto ou na planta: qual faz mais sentido pra vc?\n\nFotos do bairro: Slyronit, Agent010, Fronteira e Vitória Salatine (CC BY-SA 4.0) e Marinelson Almeida (CC BY 2.0), via Wikimedia Commons.\n\n#itaimbibi #imoveissp #investimentoimobiliario #studiosp",
+      "arquivos": [
+        "s13/feed_b/carrossel_itaim/slide_1.jpg",
+        "s13/feed_b/carrossel_itaim/slide_2.jpg",
+        "s13/feed_b/carrossel_itaim/slide_3.jpg",
+        "s13/feed_b/carrossel_itaim/slide_4.jpg",
+        "s13/feed_b/carrossel_itaim/slide_5.jpg",
+        "s13/feed_b/carrossel_itaim/slide_6.jpg",
+        "s13/feed_b/carrossel_itaim/slide_7.jpg"
+      ]
+    },
+    "s13_qui29_localizacao": {
+      "tipo": "reel",
+      "quando": "2026-10-29 12:00 (SP)",
+      "legenda": "Eu escolhi metragem. Devia ter escolhido localização. O apê maior e longe de tudo custava duas horas por dia no trânsito. Hoje eu olho primeiro metrô, trabalho e o que dá pra fazer a pé.\n\nE vc: metragem ou localização?\n\nFotos: Joalpe e Agent010 (CC BY-SA 4.0) e LuanCampSouza93, via Wikimedia Commons.\n\n#imoveissp #primeiroimovel #investimentoimobiliario #studiosp",
+      "arquivos": [
+        "s13/feed_b/reel_localizacao/reel.mp4"
+      ]
     }
   }
 }

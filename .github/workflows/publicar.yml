@@ -111,6 +111,12 @@ on:
           - s13_stories_2710
           - s13_stories_2810
           - s13_stories_2910
+          - s13_qui15_perdizes
+          - s13_seg19_obra
+          - s13_qua21_pinheiros
+          - s13_sex23_decorado
+          - s13_ter27_itaim
+          - s13_qui29_localizacao
       dry_run:
         description: "So testar, sem publicar?"
         required: false
@@ -210,6 +216,12 @@ on:
     - cron: "0 12 27 10 *"  # 27/10 09:00 SP - 3 stories (leva 2)
     - cron: "0 12 28 10 *"  # 28/10 09:00 SP - 3 stories (leva 2)
     - cron: "0 12 29 10 *"  # 29/10 09:00 SP - 3 stories (leva 2)
+    - cron: "0 15 15 10 *"  # 15/10 12:00 SP - carrossel_perdizes
+    - cron: "0 15 19 10 *"  # 19/10 12:00 SP - reel_obra
+    - cron: "0 15 21 10 *"  # 21/10 12:00 SP - carrossel_pinheiros
+    - cron: "0 15 23 10 *"  # 23/10 12:00 SP - reel_decorado
+    - cron: "0 15 27 10 *"  # 27/10 12:00 SP - carrossel_itaim
+    - cron: "0 15 29 10 *"  # 29/10 12:00 SP - reel_localizacao
 
 jobs:
   publicar:
@@ -313,6 +325,12 @@ jobs:
               "0 12 27 10 *") echo "slot=s13_stories_2710" >> "$GITHUB_OUTPUT" ;;
               "0 12 28 10 *") echo "slot=s13_stories_2810" >> "$GITHUB_OUTPUT" ;;
               "0 12 29 10 *") echo "slot=s13_stories_2910" >> "$GITHUB_OUTPUT" ;;
+              "0 15 15 10 *") echo "slot=s13_qui15_perdizes" >> "$GITHUB_OUTPUT" ;;
+              "0 15 19 10 *") echo "slot=s13_seg19_obra" >> "$GITHUB_OUTPUT" ;;
+              "0 15 21 10 *") echo "slot=s13_qua21_pinheiros" >> "$GITHUB_OUTPUT" ;;
+              "0 15 23 10 *") echo "slot=s13_sex23_decorado" >> "$GITHUB_OUTPUT" ;;
+              "0 15 27 10 *") echo "slot=s13_ter27_itaim" >> "$GITHUB_OUTPUT" ;;
+              "0 15 29 10 *") echo "slot=s13_qui29_localizacao" >> "$GITHUB_OUTPUT" ;;
               *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
             esac
             echo "dry=false" >> "$GITHUB_OUTPUT"
