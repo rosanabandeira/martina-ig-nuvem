@@ -123,102 +123,18 @@ on:
         default: true
         type: boolean
   schedule:
-    # === SEMANA 4 — 07:30 SP = 10:30 UTC (feed da sexta 07:35 p/ nao colidir) ===
-    - cron: "30 10 23 7 *"   # qui 23/07 - stories
-    - cron: "30 10 24 7 *"   # sex 24/07 - stories
-    - cron: "35 10 24 7 *"   # sex 24/07 - carrossel checklist
-    - cron: "30 10 25 7 *"   # sab 25/07 - stories
-    - cron: "30 10 26 7 *"   # dom 26/07 - stories
-    # --- Feed (15:00 UTC = 12:00 SP) ---
-    - cron: "0 15 27 7 *"   # seg 27/07 - meme poupanca
-    - cron: "0 15 29 7 *"   # qua 29/07 - hot take (carrossel)
-    - cron: "0 15 31 7 *"   # sex 31/07 - reel 3 filtros
-    # --- Stories (12:00 UTC = 09:00 SP) ---
-    - cron: "0 12 27 7 *"   # seg 27/07
-    - cron: "0 12 28 7 *"   # ter 28/07
-    - cron: "0 12 29 7 *"   # qua 29/07
-    - cron: "0 12 30 7 *"   # qui 30/07
-    - cron: "0 12 31 7 *"   # sex 31/07
-    - cron: "0 12 1 8 *"    # sab 01/08
-    - cron: "0 12 2 8 *"    # dom 02/08
-    # === SEMANA 6 — Feed 12:00 SP = 15:00 UTC ===
-    - cron: "0 15 4 8 *"   # seg 04/08 - EDU carrossel siglas
-    - cron: "0 15 6 8 *"   # qua 06/08 - REEL oferta Moema
-    - cron: "0 15 8 8 *"   # sex 08/08 - HUM carrossel morar/investir
-    # === SEMANA 6 — Stories 09:00 SP = 12:00 UTC (04 a 10/08) ===
-    - cron: "0 12 4 8 *"   # seg 04/08 - stories
-    - cron: "0 12 5 8 *"   # ter 05/08 - stories
-    - cron: "0 12 6 8 *"   # qua 06/08 - stories
-    - cron: "0 12 7 8 *"   # qui 07/08 - stories
-    - cron: "0 12 8 8 *"   # sex 08/08 - stories
-    - cron: "0 12 9 8 *"   # sab 09/08 - stories
-    - cron: "0 12 10 8 *"  # dom 10/08 - stories
-    # === SEMANA 7 — Feed 12:00 SP = 15:00 UTC ===
-    - cron: "0 15 13 8 *"  # qua 13/08 - REEL tour Caiubi (Perdizes)
-    # === SEMANA BUYER-FIRST (10-14/08) ===
-    - cron: "0 22 10 8 *"   # seg 10/08 19:00 SP - REEL desconfianca do corretor
-    - cron: "30 15 11 8 *"  # ter 11/08 12:30 SP - CARROSSEL 5 pontos
-    - cron: "0 22 12 8 *"   # qua 12/08 19:00 SP - REEL "a conta nao fecha"
-    - cron: "30 15 13 8 *"  # qui 13/08 12:30 SP - REEL "momento certo" (com voz da Rosana, teste A/B)
-    - cron: "0 22 14 8 *"   # sex 14/08 19:00 SP - CARROSSEL oferta Angelica
-    # === PARCERIA ANFITRIÃO PRIME — Feed 12:00 SP = 15:00 UTC ===
-    - cron: "0 15 27 8 *"   # qui 27/08 - post estatico parceria
-    - cron: "0 15 3 9 *"    # qui 03/09 - carrossel parceria
-    # === SEMANA 9 — Stories 09:00 SP = 12:00 UTC (corrigido 18/08, faltavam no despertador) ===
-    - cron: "0 12 18 8 *"   # ter 18/08 - stories
-    - cron: "0 12 19 8 *"   # qua 19/08 - stories
-    - cron: "0 12 20 8 *"   # qui 20/08 - stories
-    - cron: "0 12 21 8 *"   # sex 21/08 - stories
-    # === SEMANA 9 — Feed 12:30 SP = 15:30 UTC ===
-    - cron: "30 15 19 8 *"  # qua 19/08 - FGTS/Selic
-    - cron: "30 15 21 8 *"  # sex 21/08 - Studio Pinheiros
-    # === SEMANA 10-12 — Feed 12:00 SP = 15:00 UTC (agendado 08/09, corrigindo esteira parada) ===
-    - cron: "0 15 8 9 *"   # ter 08/09 - conta Moema (Jurupis)
-    - cron: "0 15 9 9 *"   # qua 09/09 - enquete studio x 2 dorm
-    - cron: "0 15 12 9 *"  # sab 12/09 - tour Very Faria Lima
-    - cron: "0 15 14 9 *"  # seg 14/09 - conta Japao Liberdade
-    # S13 outubro (pacote storytelling + stories 3/dia)
-    - cron: "0 15 5 10 *"  # 05/10 12:00 SP - reel
-    - cron: "0 15 7 10 *"  # 07/10 12:00 SP - feed
-    - cron: "0 15 9 10 *"  # 09/10 12:00 SP - reel
-    - cron: "0 15 13 10 *"  # 13/10 12:00 SP - feed
-    - cron: "0 12 3 10 *"  # 03/10 09:00 SP - 3 stories
-    - cron: "0 12 4 10 *"  # 04/10 09:00 SP - 3 stories
-    - cron: "0 12 5 10 *"  # 05/10 09:00 SP - 3 stories
-    - cron: "30 15 5 10 *"  # 05/10 12:30 SP - story post novo
-    - cron: "0 12 6 10 *"  # 06/10 09:00 SP - 3 stories
-    - cron: "0 12 7 10 *"  # 07/10 09:00 SP - 3 stories
-    - cron: "30 15 7 10 *"  # 07/10 12:30 SP - story post novo
-    - cron: "0 12 8 10 *"  # 08/10 09:00 SP - 3 stories
-    - cron: "0 12 9 10 *"  # 09/10 09:00 SP - 3 stories
-    - cron: "30 15 9 10 *"  # 09/10 12:30 SP - story post novo
-    - cron: "0 12 10 10 *"  # 10/10 09:00 SP - 3 stories
-    - cron: "0 12 11 10 *"  # 11/10 09:00 SP - 3 stories
-    - cron: "0 12 12 10 *"  # 12/10 09:00 SP - 3 stories
-    - cron: "0 12 13 10 *"  # 13/10 09:00 SP - 3 stories
-    - cron: "30 15 13 10 *"  # 13/10 12:30 SP - story post novo
-    - cron: "0 12 14 10 *"  # 14/10 09:00 SP - 3 stories
-    - cron: "0 12 15 10 *"  # 15/10 09:00 SP - 3 stories
-    - cron: "0 12 16 10 *"  # 16/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 17 10 *"  # 17/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 18 10 *"  # 18/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 19 10 *"  # 19/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 20 10 *"  # 20/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 21 10 *"  # 21/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 22 10 *"  # 22/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 23 10 *"  # 23/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 24 10 *"  # 24/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 25 10 *"  # 25/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 26 10 *"  # 26/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 27 10 *"  # 27/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 28 10 *"  # 28/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 12 29 10 *"  # 29/10 09:00 SP - 3 stories (leva 2)
-    - cron: "0 15 15 10 *"  # 15/10 12:00 SP - carrossel_perdizes
-    - cron: "0 15 19 10 *"  # 19/10 12:00 SP - reel_obra
-    - cron: "0 15 21 10 *"  # 21/10 12:00 SP - carrossel_pinheiros
-    - cron: "0 15 23 10 *"  # 23/10 12:00 SP - reel_decorado
-    - cron: "0 15 27 10 *"  # 27/10 12:00 SP - carrossel_itaim
-    - cron: "0 15 29 10 *"  # 29/10 12:00 SP - reel_localizacao
+    # Disparo de hora em hora (horarios em UTC; SP = UTC-3). A cada disparo, publica o que ja
+    # passou do horario HOJE e ainda nao saiu (pendentes_hoje.py + publicados.json). Antes eram
+    # 87 horarios fixos, um por post — o GitHub parou de dispara-los depois de 14/09 (visto em 02/10).
+    - cron: "7,37 12-16 * * *"   # 09:07 a 13:37 SP, a cada 30 min (stories 9h, feed 12h, post novo 12h30)
+    - cron: "7 17-23 * * *"      # 14:07 a 20:07 SP, de hora em hora (reels das 19h)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
 
 jobs:
   publicar:
@@ -233,113 +149,44 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Descobrir o slot
-        id: slot
+      - name: Configurar git
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "slot=${{ github.event.inputs.slot }}" >> "$GITHUB_OUTPUT"
-            echo "dry=${{ github.event.inputs.dry_run }}" >> "$GITHUB_OUTPUT"
-          else
-            case "${{ github.event.schedule }}" in
-              "30 10 23 7 *") echo "slot=stories_qui23" >> "$GITHUB_OUTPUT" ;;
-              "30 10 24 7 *") echo "slot=stories_sex24" >> "$GITHUB_OUTPUT" ;;
-              "35 10 24 7 *") echo "slot=sex_checklist"  >> "$GITHUB_OUTPUT" ;;
-              "30 10 25 7 *") echo "slot=stories_sab25" >> "$GITHUB_OUTPUT" ;;
-              "30 10 26 7 *") echo "slot=stories_dom26" >> "$GITHUB_OUTPUT" ;;
-              "0 15 27 7 *") echo "slot=seg_meme"    >> "$GITHUB_OUTPUT" ;;
-              "0 15 29 7 *") echo "slot=qua_hottake" >> "$GITHUB_OUTPUT" ;;
-              "0 15 31 7 *") echo "slot=sex_reel"    >> "$GITHUB_OUTPUT" ;;
-              "0 12 27 7 *") echo "slot=stories_seg" >> "$GITHUB_OUTPUT" ;;
-              "0 12 28 7 *") echo "slot=stories_ter" >> "$GITHUB_OUTPUT" ;;
-              "0 12 29 7 *") echo "slot=stories_qua" >> "$GITHUB_OUTPUT" ;;
-              "0 12 30 7 *") echo "slot=stories_qui" >> "$GITHUB_OUTPUT" ;;
-              "0 12 31 7 *") echo "slot=stories_sex" >> "$GITHUB_OUTPUT" ;;
-              "0 12 1 8 *")  echo "slot=stories_sab" >> "$GITHUB_OUTPUT" ;;
-              "0 12 2 8 *")  echo "slot=stories_dom" >> "$GITHUB_OUTPUT" ;;
-              "0 15 4 8 *")  echo "slot=s6_seg_siglas" >> "$GITHUB_OUTPUT" ;;
-              "0 15 6 8 *")  echo "slot=s6_qua_moema"  >> "$GITHUB_OUTPUT" ;;
-              "0 15 8 8 *")  echo "slot=s6_sex_hum"    >> "$GITHUB_OUTPUT" ;;
-              "0 12 4 8 *")  echo "slot=s6_stories_seg" >> "$GITHUB_OUTPUT" ;;
-              "0 12 5 8 *")  echo "slot=s6_stories_ter" >> "$GITHUB_OUTPUT" ;;
-              "0 12 6 8 *")  echo "slot=s6_stories_qua" >> "$GITHUB_OUTPUT" ;;
-              "0 12 7 8 *")  echo "slot=s6_stories_qui" >> "$GITHUB_OUTPUT" ;;
-              "0 12 8 8 *")  echo "slot=s6_stories_sex" >> "$GITHUB_OUTPUT" ;;
-              "0 12 9 8 *")  echo "slot=s6_stories_sab" >> "$GITHUB_OUTPUT" ;;
-              "0 12 10 8 *") echo "slot=s6_stories_dom" >> "$GITHUB_OUTPUT" ;;
-              "0 15 13 8 *") echo "slot=s7_qua_caiubi" >> "$GITHUB_OUTPUT" ;;
-              "30 15 13 8 *") echo "slot=s8_qui_momento" >> "$GITHUB_OUTPUT" ;;
-              "0 22 10 8 *")  echo "slot=s8_seg_corretor" >> "$GITHUB_OUTPUT" ;;
-              "30 15 11 8 *") echo "slot=s8_ter_5pontos" >> "$GITHUB_OUTPUT" ;;
-              "0 22 12 8 *")  echo "slot=s8_qua_conta" >> "$GITHUB_OUTPUT" ;;
-              "0 22 14 8 *")  echo "slot=s8_sex_angelica" >> "$GITHUB_OUTPUT" ;;
-              "0 15 27 8 *")  echo "slot=anfitriao_post_27_08" >> "$GITHUB_OUTPUT" ;;
-              "0 15 3 9 *")   echo "slot=anfitriao_carrossel_03_09" >> "$GITHUB_OUTPUT" ;;
-              "0 12 18 8 *")  echo "slot=s9_stories_ter18" >> "$GITHUB_OUTPUT" ;;
-              "0 12 19 8 *")  echo "slot=s9_stories_qua19" >> "$GITHUB_OUTPUT" ;;
-              "0 12 20 8 *")  echo "slot=s9_stories_qui20" >> "$GITHUB_OUTPUT" ;;
-              "0 12 21 8 *")  echo "slot=s9_stories_sex21" >> "$GITHUB_OUTPUT" ;;
-              "30 15 19 8 *") echo "slot=s9_qua_fgts_selic" >> "$GITHUB_OUTPUT" ;;
-              "30 15 21 8 *") echo "slot=s9_sex_studio_pinheiros" >> "$GITHUB_OUTPUT" ;;
-              "0 15 8 9 *")   echo "slot=s11_ter2_conta_moema" >> "$GITHUB_OUTPUT" ;;
-              "0 15 9 9 *")   echo "slot=s11_qua2_enquete" >> "$GITHUB_OUTPUT" ;;
-              "0 15 12 9 *")  echo "slot=s12_sab_tour_very" >> "$GITHUB_OUTPUT" ;;
-              "0 15 14 9 *")  echo "slot=s12_seg_conta_liberdade" >> "$GITHUB_OUTPUT" ;;
-              "0 15 2 10 *") echo "slot=s13_sex02_entrada" >> "$GITHUB_OUTPUT" ;;
-              "0 15 5 10 *") echo "slot=s13_seg05_duaspessoas" >> "$GITHUB_OUTPUT" ;;
-              "0 15 7 10 *") echo "slot=s13_qua07_aluguel" >> "$GITHUB_OUTPUT" ;;
-              "0 15 9 10 *") echo "slot=s13_sex09_pergunta" >> "$GITHUB_OUTPUT" ;;
-              "0 15 13 10 *") echo "slot=s13_ter13_achadinho" >> "$GITHUB_OUTPUT" ;;
-              "0 12 2 10 *") echo "slot=s13_stories_0210" >> "$GITHUB_OUTPUT" ;;
-              "30 15 2 10 *") echo "slot=s13_postnovo_0210" >> "$GITHUB_OUTPUT" ;;
-              "0 12 3 10 *") echo "slot=s13_stories_0310" >> "$GITHUB_OUTPUT" ;;
-              "0 12 4 10 *") echo "slot=s13_stories_0410" >> "$GITHUB_OUTPUT" ;;
-              "0 12 5 10 *") echo "slot=s13_stories_0510" >> "$GITHUB_OUTPUT" ;;
-              "30 15 5 10 *") echo "slot=s13_postnovo_0510" >> "$GITHUB_OUTPUT" ;;
-              "0 12 6 10 *") echo "slot=s13_stories_0610" >> "$GITHUB_OUTPUT" ;;
-              "0 12 7 10 *") echo "slot=s13_stories_0710" >> "$GITHUB_OUTPUT" ;;
-              "30 15 7 10 *") echo "slot=s13_postnovo_0710" >> "$GITHUB_OUTPUT" ;;
-              "0 12 8 10 *") echo "slot=s13_stories_0810" >> "$GITHUB_OUTPUT" ;;
-              "0 12 9 10 *") echo "slot=s13_stories_0910" >> "$GITHUB_OUTPUT" ;;
-              "30 15 9 10 *") echo "slot=s13_postnovo_0910" >> "$GITHUB_OUTPUT" ;;
-              "0 12 10 10 *") echo "slot=s13_stories_1010" >> "$GITHUB_OUTPUT" ;;
-              "0 12 11 10 *") echo "slot=s13_stories_1110" >> "$GITHUB_OUTPUT" ;;
-              "0 12 12 10 *") echo "slot=s13_stories_1210" >> "$GITHUB_OUTPUT" ;;
-              "0 12 13 10 *") echo "slot=s13_stories_1310" >> "$GITHUB_OUTPUT" ;;
-              "30 15 13 10 *") echo "slot=s13_postnovo_1310" >> "$GITHUB_OUTPUT" ;;
-              "0 12 14 10 *") echo "slot=s13_stories_1410" >> "$GITHUB_OUTPUT" ;;
-              "0 12 15 10 *") echo "slot=s13_stories_1510" >> "$GITHUB_OUTPUT" ;;
-              "0 12 16 10 *") echo "slot=s13_stories_1610" >> "$GITHUB_OUTPUT" ;;
-              "0 12 17 10 *") echo "slot=s13_stories_1710" >> "$GITHUB_OUTPUT" ;;
-              "0 12 18 10 *") echo "slot=s13_stories_1810" >> "$GITHUB_OUTPUT" ;;
-              "0 12 19 10 *") echo "slot=s13_stories_1910" >> "$GITHUB_OUTPUT" ;;
-              "0 12 20 10 *") echo "slot=s13_stories_2010" >> "$GITHUB_OUTPUT" ;;
-              "0 12 21 10 *") echo "slot=s13_stories_2110" >> "$GITHUB_OUTPUT" ;;
-              "0 12 22 10 *") echo "slot=s13_stories_2210" >> "$GITHUB_OUTPUT" ;;
-              "0 12 23 10 *") echo "slot=s13_stories_2310" >> "$GITHUB_OUTPUT" ;;
-              "0 12 24 10 *") echo "slot=s13_stories_2410" >> "$GITHUB_OUTPUT" ;;
-              "0 12 25 10 *") echo "slot=s13_stories_2510" >> "$GITHUB_OUTPUT" ;;
-              "0 12 26 10 *") echo "slot=s13_stories_2610" >> "$GITHUB_OUTPUT" ;;
-              "0 12 27 10 *") echo "slot=s13_stories_2710" >> "$GITHUB_OUTPUT" ;;
-              "0 12 28 10 *") echo "slot=s13_stories_2810" >> "$GITHUB_OUTPUT" ;;
-              "0 12 29 10 *") echo "slot=s13_stories_2910" >> "$GITHUB_OUTPUT" ;;
-              "0 15 15 10 *") echo "slot=s13_qui15_perdizes" >> "$GITHUB_OUTPUT" ;;
-              "0 15 19 10 *") echo "slot=s13_seg19_obra" >> "$GITHUB_OUTPUT" ;;
-              "0 15 21 10 *") echo "slot=s13_qua21_pinheiros" >> "$GITHUB_OUTPUT" ;;
-              "0 15 23 10 *") echo "slot=s13_sex23_decorado" >> "$GITHUB_OUTPUT" ;;
-              "0 15 27 10 *") echo "slot=s13_ter27_itaim" >> "$GITHUB_OUTPUT" ;;
-              "0 15 29 10 *") echo "slot=s13_qui29_localizacao" >> "$GITHUB_OUTPUT" ;;
-              *) echo "slot=" >> "$GITHUB_OUTPUT" ;;
-            esac
-            echo "dry=false" >> "$GITHUB_OUTPUT"
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
 
-      - name: Publicar
-        if: steps.slot.outputs.slot != ''
+      - name: Publicar (manual)
+        if: github.event_name == 'workflow_dispatch'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
-          if [ "${{ steps.slot.outputs.dry }}" = "true" ]; then
-            python publicar_nuvem.py "${{ steps.slot.outputs.slot }}" --dry-run
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python publicar_nuvem.py "${{ github.event.inputs.slot }}" --dry-run
           else
-            python publicar_nuvem.py "${{ steps.slot.outputs.slot }}"
+            python publicar_nuvem.py "${{ github.event.inputs.slot }}"
+            python pendentes_hoje.py --marcar "${{ github.event.inputs.slot }}" publicado_manual
+            git add publicados.json
+            git commit -q -m "Publicado (manual): ${{ github.event.inputs.slot }}"
+            git pull -q --rebase && git push -q
           fi
+
+      - name: Publicar o que esta devido hoje
+        if: github.event_name == 'schedule'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          falhou=0
+          for slot in $(python pendentes_hoje.py); do
+            echo "=== $slot ==="
+            # Marca ANTES de tentar: se der erro no meio, nao tenta de novo sozinho (evita post
+            # repetido); a revisao diaria avisa o que falhou.
+            python pendentes_hoje.py --marcar "$slot" tentando
+            git add publicados.json && git commit -q -m "Publicando: $slot" && git pull -q --rebase && git push -q
+            if python publicar_nuvem.py "$slot"; then
+              python pendentes_hoje.py --marcar "$slot" publicado
+            else
+              python pendentes_hoje.py --marcar "$slot" falhou
+              falhou=1
+            fi
+            git add publicados.json && git commit -q -m "Resultado: $slot" && git pull -q --rebase && git push -q
+          done
+          exit $falhou
