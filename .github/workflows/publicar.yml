@@ -178,13 +178,10 @@ on:
     - cron: "0 15 12 9 *"  # sab 12/09 - tour Very Faria Lima
     - cron: "0 15 14 9 *"  # seg 14/09 - conta Japao Liberdade
     # S13 outubro (pacote storytelling + stories 3/dia)
-    - cron: "0 15 2 10 *"  # 02/10 12:00 SP - feed
     - cron: "0 15 5 10 *"  # 05/10 12:00 SP - reel
     - cron: "0 15 7 10 *"  # 07/10 12:00 SP - feed
     - cron: "0 15 9 10 *"  # 09/10 12:00 SP - reel
     - cron: "0 15 13 10 *"  # 13/10 12:00 SP - feed
-    - cron: "0 12 2 10 *"  # 02/10 09:00 SP - 3 stories
-    - cron: "30 15 2 10 *"  # 02/10 12:30 SP - story post novo
     - cron: "0 12 3 10 *"  # 03/10 09:00 SP - 3 stories
     - cron: "0 12 4 10 *"  # 04/10 09:00 SP - 3 stories
     - cron: "0 12 5 10 *"  # 05/10 09:00 SP - 3 stories
