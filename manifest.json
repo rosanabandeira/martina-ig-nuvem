@@ -715,6 +715,14 @@
         "s13/stories/09-10/story_3.jpg"
       ]
     },
+    "s13_stories_0910_resto": {
+      "tipo": "story",
+      "quando": "publicacao manual (reenvio dos stories 2 e 3 de 09/10)",
+      "arquivos": [
+        "s13/stories/09-10/story_2.jpg",
+        "s13/stories/09-10/story_3.jpg"
+      ]
+    },
     "s13_postnovo_0910": {
       "tipo": "story",
       "quando": "2026-10-09 12:30 (SP)",

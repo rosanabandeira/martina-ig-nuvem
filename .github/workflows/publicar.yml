@@ -89,6 +89,7 @@ on:
           - s13_postnovo_0710
           - s13_stories_0810
           - s13_stories_0910
+          - s13_stories_0910_resto
           - s13_postnovo_0910
           - s13_stories_1010
           - s13_stories_1110
