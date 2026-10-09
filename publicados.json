@@ -54,5 +54,9 @@
  "s13_stories_0910": {
   "em": "2026-10-09 12:48",
   "status": "parcial_story1_ok_resto_em_s13_stories_0910_resto"
+ },
+ "s13_stories_0910_resto": {
+  "em": "2026-10-09 12:51",
+  "status": "publicado_manual"
  }
 }
