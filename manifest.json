@@ -998,6 +998,27 @@
       "arquivos": [
         "s13/feed_b/reel_localizacao/reel.mp4"
       ]
+    },
+    "s13_qui22_juros": {
+      "tipo": "reel",
+      "quando": "2026-10-22 12:00 (SP)",
+      "legenda": "A Selic já caiu 5 vezes em 2026. E o mercado espera mais.\n\nEm janeiro estava em 15%. Hoje está em 13,75%. Para o fim de 2027, o Boletim Focus do Banco Central projeta 12%.\n\nPra quem tem dinheiro parado, isso pesa: R$ 300 mil na renda fixa rendiam cerca de R$ 3.500 por mês com a Selic a 15%. Com 12%, perto de R$ 2.850 (valores brutos, antes do IR).\n\nO imóvel não depende da Selic. E na planta vc trava o preço de hoje e só financia o saldo nas chaves.\n\nQuer fazer essa conta com o seu valor? Me chama no direct.\n\n#investimentoimobiliario #selic #imoveissp",
+      "arquivos": [
+        "s13/feed_b/reel_juros/reel.mp4"
+      ]
+    },
+    "s13_seg26_juros": {
+      "tipo": "feed",
+      "quando": "2026-10-26 12:00 (SP)",
+      "legenda": "Juros caindo: o que muda pra quem quer comprar? 📉\n\n15% → era a Selic em janeiro.\n13,75% → é a Selic hoje, depois de 5 cortes seguidos.\n12% → é o que o mercado espera para o fim de 2027 (Boletim Focus, Banco Central).\n\nJuro menor deixa o financiamento mais barato. Mais gente consegue comprar, e mais procura costuma puxar o preço.\n\nNa planta, vc paga a entrada parcelada durante a obra e só financia o saldo nas chaves, quando o juro deve estar mais baixo. É projeção do mercado, não garantia: quem decide é o Copom.\n\nEm que fase vc está: pesquisando ou já fazendo conta? Me chama no direct.\n\n#investimentoimobiliario #comprarnaplanta #imoveissp",
+      "arquivos": [
+        "s13/feed_b/carrossel_juros/slide_1.jpg",
+        "s13/feed_b/carrossel_juros/slide_2.jpg",
+        "s13/feed_b/carrossel_juros/slide_3.jpg",
+        "s13/feed_b/carrossel_juros/slide_4.jpg",
+        "s13/feed_b/carrossel_juros/slide_5.jpg",
+        "s13/feed_b/carrossel_juros/slide_6.jpg"
+      ]
     }
   }
 }
