@@ -1537,6 +1537,280 @@
       "arquivos": [
         "s16/ganho/postnovo/16-11/story_post_novo.jpg"
       ]
+    },
+    "s17_stories_0112": {
+      "tipo": "story",
+      "quando": "2026-12-01 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/01-12/story_1.jpg",
+        "s17/stories_leva4/01-12/story_2.jpg",
+        "s17/stories_leva4/01-12/story_3.jpg"
+      ]
+    },
+    "s17_stories_0212": {
+      "tipo": "story",
+      "quando": "2026-12-02 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/02-12/story_1.jpg",
+        "s17/stories_leva4/02-12/story_2.jpg",
+        "s17/stories_leva4/02-12/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_0212": {
+      "tipo": "story",
+      "quando": "2026-12-02 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/02-12/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_0312": {
+      "tipo": "story",
+      "quando": "2026-12-03 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/03-12/story_1.jpg",
+        "s17/stories_leva4/03-12/story_2.jpg",
+        "s17/stories_leva4/03-12/story_3.jpg"
+      ]
+    },
+    "s17_stories_0412": {
+      "tipo": "story",
+      "quando": "2026-12-04 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/04-12/story_1.jpg",
+        "s17/stories_leva4/04-12/story_2.jpg",
+        "s17/stories_leva4/04-12/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_0412": {
+      "tipo": "story",
+      "quando": "2026-12-04 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/04-12/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_1411": {
+      "tipo": "story",
+      "quando": "2026-11-14 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/14-11/story_1.jpg",
+        "s17/stories_leva4/14-11/story_2.jpg",
+        "s17/stories_leva4/14-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_1511": {
+      "tipo": "story",
+      "quando": "2026-11-15 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/15-11/story_1.jpg",
+        "s17/stories_leva4/15-11/story_2.jpg",
+        "s17/stories_leva4/15-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_1611": {
+      "tipo": "story",
+      "quando": "2026-11-16 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/16-11/story_1.jpg",
+        "s17/stories_leva4/16-11/story_2.jpg",
+        "s17/stories_leva4/16-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_1711": {
+      "tipo": "story",
+      "quando": "2026-11-17 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/17-11/story_1.jpg",
+        "s17/stories_leva4/17-11/story_2.jpg",
+        "s17/stories_leva4/17-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_1811": {
+      "tipo": "story",
+      "quando": "2026-11-18 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/18-11/story_1.jpg",
+        "s17/stories_leva4/18-11/story_2.jpg",
+        "s17/stories_leva4/18-11/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_1811": {
+      "tipo": "story",
+      "quando": "2026-11-18 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/18-11/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_1911": {
+      "tipo": "story",
+      "quando": "2026-11-19 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/19-11/story_1.jpg",
+        "s17/stories_leva4/19-11/story_2.jpg",
+        "s17/stories_leva4/19-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_2011": {
+      "tipo": "story",
+      "quando": "2026-11-20 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/20-11/story_1.jpg",
+        "s17/stories_leva4/20-11/story_2.jpg",
+        "s17/stories_leva4/20-11/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_2011": {
+      "tipo": "story",
+      "quando": "2026-11-20 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/20-11/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_2111": {
+      "tipo": "story",
+      "quando": "2026-11-21 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/21-11/story_1.jpg",
+        "s17/stories_leva4/21-11/story_2.jpg",
+        "s17/stories_leva4/21-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_2211": {
+      "tipo": "story",
+      "quando": "2026-11-22 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/22-11/story_1.jpg",
+        "s17/stories_leva4/22-11/story_2.jpg",
+        "s17/stories_leva4/22-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_2311": {
+      "tipo": "story",
+      "quando": "2026-11-23 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/23-11/story_1.jpg",
+        "s17/stories_leva4/23-11/story_2.jpg",
+        "s17/stories_leva4/23-11/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_2311": {
+      "tipo": "story",
+      "quando": "2026-11-23 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/23-11/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_2411": {
+      "tipo": "story",
+      "quando": "2026-11-24 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/24-11/story_1.jpg",
+        "s17/stories_leva4/24-11/story_2.jpg",
+        "s17/stories_leva4/24-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_2511": {
+      "tipo": "story",
+      "quando": "2026-11-25 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/25-11/story_1.jpg",
+        "s17/stories_leva4/25-11/story_2.jpg",
+        "s17/stories_leva4/25-11/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_2511": {
+      "tipo": "story",
+      "quando": "2026-11-25 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/25-11/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_2611": {
+      "tipo": "story",
+      "quando": "2026-11-26 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/26-11/story_1.jpg",
+        "s17/stories_leva4/26-11/story_2.jpg",
+        "s17/stories_leva4/26-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_2711": {
+      "tipo": "story",
+      "quando": "2026-11-27 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/27-11/story_1.jpg",
+        "s17/stories_leva4/27-11/story_2.jpg",
+        "s17/stories_leva4/27-11/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_2711": {
+      "tipo": "story",
+      "quando": "2026-11-27 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/27-11/story_post_novo.jpg"
+      ]
+    },
+    "s17_stories_2811": {
+      "tipo": "story",
+      "quando": "2026-11-28 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/28-11/story_1.jpg",
+        "s17/stories_leva4/28-11/story_2.jpg",
+        "s17/stories_leva4/28-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_2911": {
+      "tipo": "story",
+      "quando": "2026-11-29 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/29-11/story_1.jpg",
+        "s17/stories_leva4/29-11/story_2.jpg",
+        "s17/stories_leva4/29-11/story_3.jpg"
+      ]
+    },
+    "s17_stories_3011": {
+      "tipo": "story",
+      "quando": "2026-11-30 09:00 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/30-11/story_1.jpg",
+        "s17/stories_leva4/30-11/story_2.jpg",
+        "s17/stories_leva4/30-11/story_3.jpg"
+      ]
+    },
+    "s17_postnovo_3011": {
+      "tipo": "story",
+      "quando": "2026-11-30 12:30 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "s17/stories_leva4/30-11/story_post_novo.jpg"
+      ]
     }
   }
 }
