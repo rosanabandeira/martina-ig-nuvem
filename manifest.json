@@ -1045,9 +1045,54 @@
     "s14_qua04_planta_reel": {
       "tipo": "reel",
       "quando": "2026-11-04 12:00 (SP)",
-      "legenda": "Studio de R$ 499.421 na planta: quanto sai do seu bolso até a chave? Só 34%.\n\nEntrada R$ 73.910, 3 parcelas de R$ 1.660, 37 mensais de R$ 880, 2 anuais de R$ 14.980 e uma parcela única de R$ 29.970. Total até a chave: R$ 171.380 em cerca de 3 anos.\n\nOs outros R$ 328.041 o banco financia só na entrega, em 2029.\n\nFluxo real de um lançamento nos Jardins (studio de 18,92 m², tabela de outubro/2026), corrigido pelo INCC até a entrega.\n\nSalva pra fazer a conta do seu.\n\n#comprarnaplanta #imoveissp #investimentoimobiliario",
+      "legenda": "Studio de R$ 379 mil na planta: quanto sai do seu bolso até a chave? Só 30%.\n\nAto de R$ 37.916, 37 mensais de R$ 717, 2 anuais de R$ 15.167 e 5% nas chaves. Total até a chave: R$ 113.749, direto com a incorporadora.\n\nOs outros R$ 265.414 o banco financia só na entrega, em out/2028.\n\nNex One Japão Liberdade, studio R2V de 20,91 m², tabela de out/2026 com desconto, no nosso fluxo padrão de lançamento. Parcelas corrigidas pelo INCC até a entrega.\n\nSalva pra fazer a conta do seu.\n\n#comprarnaplanta #imoveissp #investimentoimobiliario",
       "arquivos": [
         "s14/interativos/reel_planta/reel.mp4"
+      ]
+    },
+    "s15_seg09_alavancagem": {
+      "tipo": "feed",
+      "quando": "2026-11-09 12:00 (SP)",
+      "legenda": "Quem comprou esse 1 dorm na planta em Perdizes pagou R$ 87 mil até hoje. A mesma unidade subiu R$ 127 mil na tabela.\n\nEsse é o modelo de quem investe na planta: vc paga uma parte durante a obra e a valorização vem sobre o preço inteiro.\n\nMas tem duas ressalvas que quase ninguém conta: o saldo é corrigido pelo INCC, e nem todo prédio valoriza. No carrossel eu mostro as duas, com os números.\n\nSalva pra fazer essa conta antes do próximo lançamento.\n\n#comprarnaplanta #investimentoimobiliario #imoveissp",
+      "arquivos": [
+        "s15/narrativas/planta_alavancagem/slide_1.jpg",
+        "s15/narrativas/planta_alavancagem/slide_2.jpg",
+        "s15/narrativas/planta_alavancagem/slide_3.jpg",
+        "s15/narrativas/planta_alavancagem/slide_4.jpg",
+        "s15/narrativas/planta_alavancagem/slide_5.jpg",
+        "s15/narrativas/planta_alavancagem/slide_6.jpg",
+        "s15/narrativas/planta_alavancagem/slide_7.jpg",
+        "s15/narrativas/planta_alavancagem/slide_8.jpg"
+      ]
+    },
+    "s15_qua11_fluxo_padrao": {
+      "tipo": "feed",
+      "quando": "2026-11-11 12:00 (SP)",
+      "legenda": "Com R$ 37.916 vc entra num studio R2V de R$ 379 mil no Japão-Liberdade. É o nosso fluxo padrão de lançamento: 10% de ato, mensais de R$ 717, 2 anuais e 5% na chave. O banco só entra na entrega.\n\nComprando pronto pelo mesmo valor, seriam R$ 75.833 de entrada e R$ 303 mil no banco já na compra. No lançamento, é metade da entrada, R$ 38 mil a menos financiados e a parcela do banco só começa na chave.\n\nTem ressalva, e eu mostro no carrossel: as parcelas são corrigidas pelo INCC. Por isso a escolha do prédio importa.\n\nSalva e me chama: eu simulo com a unidade que vc quer.\n\n#comprarnaplanta #investimentoimobiliario #imoveissp",
+      "arquivos": [
+        "s15/narrativas/fluxo_padrao/slide_1.jpg",
+        "s15/narrativas/fluxo_padrao/slide_2.jpg",
+        "s15/narrativas/fluxo_padrao/slide_3.jpg",
+        "s15/narrativas/fluxo_padrao/slide_4.jpg",
+        "s15/narrativas/fluxo_padrao/slide_5.jpg",
+        "s15/narrativas/fluxo_padrao/slide_6.jpg",
+        "s15/narrativas/fluxo_padrao/slide_7.jpg",
+        "s15/narrativas/fluxo_padrao/slide_8.jpg"
+      ]
+    },
+    "s15_sex13_ciclo": {
+      "tipo": "feed",
+      "quando": "2026-11-13 12:00 (SP)",
+      "legenda": "Do lançamento à chave, cada fase pede um valor diferente. Peguei um studio R2V de R$ 379 mil no Japão-Liberdade e mostrei onde está o dinheiro em cada uma, no nosso fluxo padrão.\n\nPra entrar, R$ 37.916. Na obra, R$ 717 por mês e 2 anuais. Na chave, 5% e o banco. Até lá, saem R$ 113 mil, direto com a incorporadora.\n\nSalva e me chama: eu monto o ciclo da unidade que vc quer.\n\n#comprarnaplanta #imoveissp #investimentoimobiliario",
+      "arquivos": [
+        "s15/narrativas/ciclo_investidor/slide_1.jpg",
+        "s15/narrativas/ciclo_investidor/slide_2.jpg",
+        "s15/narrativas/ciclo_investidor/slide_3.jpg",
+        "s15/narrativas/ciclo_investidor/slide_4.jpg",
+        "s15/narrativas/ciclo_investidor/slide_5.jpg",
+        "s15/narrativas/ciclo_investidor/slide_6.jpg",
+        "s15/narrativas/ciclo_investidor/slide_7.jpg",
+        "s15/narrativas/ciclo_investidor/slide_8.jpg"
       ]
     }
   }
