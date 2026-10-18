@@ -1019,6 +1019,36 @@
         "s13/feed_b/carrossel_juros/slide_5.jpg",
         "s13/feed_b/carrossel_juros/slide_6.jpg"
       ]
+    },
+    "s14_sex30_roi_reel": {
+      "tipo": "reel",
+      "quando": "2026-10-30 12:00 (SP)",
+      "legenda": "Comprei no lançamento: quanto vale na entrega? Fiz a conta em 3 prédios R2V de SP, com a tabela do lançamento e a de hoje, unidade por unidade.\n\nEstação Perdizes: +25,9%. Aimberê, no mesmo bairro: +15,9%. Artur Prado, na Bela Vista: +2,1%.\n\nE cruzei com o bairro (vendas reais registradas na Prefeitura) e com o INCC do período. Só um dos três ficou acima dos dois.\n\nLançamento não é bilhete premiado. Por isso eu comparo antes de indicar.\n\nQuer esse comparativo do prédio que vc está olhando? Me chama no direct.\n\n#investimentoimobiliario #comprarnaplanta #imoveissp",
+      "arquivos": [
+        "s14/interativos/reel_roi_r2v/reel.mp4"
+      ]
+    },
+    "s14_seg02_roi_carrossel": {
+      "tipo": "feed",
+      "quando": "2026-11-02 12:00 (SP)",
+      "legenda": "Comprou no lançamento: quanto valia na entrega? Comparei 3 prédios R2V de SP, mesma unidade, tabela contra tabela 📊\n\nSalva pra consultar antes de comprar o próximo lançamento.\n\nFontes: tabelas da incorporadora (lançamento × out/2026); bairro pelo R$/m² mediano das vendas registradas no ITBI da Prefeitura de SP (2023 × ago/25–jul/26); INCC (FGV). Fotos: Martina Corretora e Wikimedia Commons (LuanCampSouza93; Pedu0303, CC0).\n\n#investimentoimobiliario #imoveissp #r2v",
+      "arquivos": [
+        "s14/interativos/carrossel_roi_r2v/slide_1.jpg",
+        "s14/interativos/carrossel_roi_r2v/slide_2.jpg",
+        "s14/interativos/carrossel_roi_r2v/slide_3.jpg",
+        "s14/interativos/carrossel_roi_r2v/slide_4.jpg",
+        "s14/interativos/carrossel_roi_r2v/slide_5.jpg",
+        "s14/interativos/carrossel_roi_r2v/slide_6.jpg",
+        "s14/interativos/carrossel_roi_r2v/slide_7.jpg"
+      ]
+    },
+    "s14_qua04_planta_reel": {
+      "tipo": "reel",
+      "quando": "2026-11-04 12:00 (SP)",
+      "legenda": "Studio de R$ 499.421 na planta: quanto sai do seu bolso até a chave? Só 34%.\n\nEntrada R$ 73.910, 3 parcelas de R$ 1.660, 37 mensais de R$ 880, 2 anuais de R$ 14.980 e uma parcela única de R$ 29.970. Total até a chave: R$ 171.380 em cerca de 3 anos.\n\nOs outros R$ 328.041 o banco financia só na entrega, em 2029.\n\nFluxo real de um lançamento nos Jardins (studio de 18,92 m², tabela de outubro/2026), corrigido pelo INCC até a entrega.\n\nSalva pra fazer a conta do seu.\n\n#comprarnaplanta #imoveissp #investimentoimobiliario",
+      "arquivos": [
+        "s14/interativos/reel_planta/reel.mp4"
+      ]
     }
   }
 }
