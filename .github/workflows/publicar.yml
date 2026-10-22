@@ -10,10 +10,12 @@ on:
   workflow_dispatch:
     inputs:
       slot:
-        description: "Qual slot publicar (teste manual)"
+        description: "Qual slot publicar (teste manual). 'automatico' = o que estiver devido hoje (usado pelo despertador cron-job.org)"
         required: true
+        default: automatico
         type: choice
         options:
+          - automatico
           - stories_qua22
           - sex_checklist
           - stories_qui23
@@ -159,7 +161,7 @@ jobs:
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
 
       - name: Publicar (manual)
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.slot != 'automatico'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
@@ -174,7 +176,7 @@ jobs:
           fi
 
       - name: Publicar o que esta devido hoje
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event.inputs.slot == 'automatico'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
