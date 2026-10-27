@@ -1859,6 +1859,36 @@
       "arquivos": [
         "s18/lamina_B/lamina.jpg"
       ]
+    },
+    "s18_qui29_humanizado": {
+      "tipo": "feed",
+      "quando": "2026-10-29 19:00 (SP)",
+      "legenda": "Escrevi isso pensando em quem me fala \"imóvel não é pra mim\".\n\nÉ sim. E começa com uma conversa de 30 minutos.\n\nComenta AGENDA que eu te mando o link.\n\n*Exemplo real: unidade de R$ 379 mil com desconto, 10% de entrada, parcela durante a obra.",
+      "arquivos": [
+        "s18/humanizado/slide_1.jpg",
+        "s18/humanizado/slide_2.jpg",
+        "s18/humanizado/slide_3.jpg",
+        "s18/humanizado/slide_4.jpg",
+        "s18/humanizado/slide_5.jpg",
+        "s18/humanizado/slide_6.jpg",
+        "s18/humanizado/slide_7.jpg"
+      ]
+    },
+    "s18_sex30_laminaD1": {
+      "tipo": "feed",
+      "quando": "2026-10-30 19:00 (SP)",
+      "legenda": "Descubra em 30 minutos se dá pra você ter um imóvel. E por quanto por mês.\n\nNa conversa você sai sabendo:\n✔ quanto dá pra começar (tem gente começando a partir de R$ 717/mês*)\n✔ como entrar pequeno e ficar com o imóvel inteiro\n✔ quais localizações valem mais com o tempo\n✔ as unidades e condições do mês que não aparecem no site\n\nPatrimônio sólido, construído no seu ritmo.\n\nComenta AGENDA que eu te mando o link pra escolher o horário (ter, qua ou qui, 14h30, 16h ou 19h).\n\n*Exemplo real: unidade de R$ 379 mil com desconto, 10% de entrada, parcela durante a obra.\n\n#comprarnaplanta #imoveissp",
+      "arquivos": [
+        "s18/lamina_D1/lamina.jpg"
+      ]
+    },
+    "s18_sab31_laminaD2": {
+      "tipo": "feed",
+      "quando": "2026-10-31 13:00 (SP)",
+      "legenda": "Você talvez já possa comprar. E nem sabe ainda.\n\nMe dá 30 minutos que eu te mostro a conta.\n\nComenta AGENDA ✨\n\n*Exemplo real a partir de R$ 717/mês durante a obra (unidade de R$ 379 mil com desconto, 10% de entrada).",
+      "arquivos": [
+        "s18/lamina_D2/lamina.jpg"
+      ]
     }
   }
 }
