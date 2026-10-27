@@ -1843,6 +1843,22 @@
       "arquivos": [
         "s18/story_reuniao/story.jpg"
       ]
+    },
+    "s18_ter27_laminaA": {
+      "tipo": "feed",
+      "quando": "2026-10-27 13:00 (SP)",
+      "legenda": "Antes de comprar um imóvel, compre 30 minutos. (Esses são de graça.)\n\nEm 30 minutos por videochamada eu te mostro quanto dá pra pagar de entrada e por mês, faço a simulação do banco com a sua renda e separo as unidades que fazem sentido pra você, com a tabela do mês.\n\nComenta AGENDA que eu te mando o link pra escolher o horário (ter, qua ou qui, 14h30, 16h ou 19h).\n\n#comprarnaplanta #imoveissp",
+      "arquivos": [
+        "s18/lamina_A/lamina.jpg"
+      ]
+    },
+    "s18_qua28_laminaB": {
+      "tipo": "feed",
+      "quando": "2026-10-28 13:00 (SP)",
+      "legenda": "Quem compra sem fazer a conta, paga a conta.\n\nEntrada, parcela da obra, financiamento, correção, ITBI: tudo isso muda o quanto o imóvel vai te custar de verdade. E muda de pessoa pra pessoa.\n\nPor isso eu ofereço 30 minutos por videochamada, de graça, pra fazer essa conta com os seus números.\n\nComenta AGENDA que eu te mando o link pra escolher o horário (ter, qua ou qui, 14h30, 16h ou 19h).\n\n#comprarnaplanta #investimentoimobiliario",
+      "arquivos": [
+        "s18/lamina_B/lamina.jpg"
+      ]
     }
   }
 }
