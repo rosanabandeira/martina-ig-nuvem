@@ -111,7 +111,8 @@ def publicar_slot(nome, dry_run=False):
     if not slot:
         raise IGError(f"slot desconhecido: {nome}. Validos: {', '.join(MANIFEST['slots'])}")
     base = MANIFEST["base_url"].rstrip("/")
-    urls = [f"{base}/{a}" for a in slot["arquivos"]]
+    # link completo (ex.: post diário de notícia hospedado no próprio repo) vai como está
+    urls = [a if a.startswith("http") else f"{base}/{a}" for a in slot["arquivos"]]
     tipo = slot["tipo"]
     legenda = slot.get("legenda", "")
     log(f"Slot '{nome}' | tipo={tipo} | {len(urls)} arquivo(s)")
