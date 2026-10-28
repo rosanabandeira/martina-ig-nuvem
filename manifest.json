@@ -1889,6 +1889,22 @@
       "arquivos": [
         "s18/lamina_D2/lamina.jpg"
       ]
+    },
+    "noticia_2026-10-29_feed": {
+      "tipo": "feed",
+      "quando": "2026-10-29 08:00 (SP)",
+      "legenda": "Segunda-feira, o Ibovespa fechou em queda de 13,88%, a maior desde março de 2020. O dólar subiu 8,36% no mesmo dia.\n\nQuem tinha o patrimônio todo na bolsa viu o saldo encolher em poucas horas. Quem tem imóvel bem localizado continuou com o mesmo endereço, a mesma escritura e a mesma procura.\n\nImóvel não serve para ver o preço mudar toda hora. Serve para construir patrimônio com tranquilidade.\n\nQuer entender por onde começar? Comenta AGENDA que eu te mando o link para um bate-papo de 30 minutos.\n\nFonte: B3, fechamento de 26/10/2026.",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/main/noticias/2026-10-29/feed.jpg"
+      ]
+    },
+    "noticia_2026-10-29_story": {
+      "tipo": "story",
+      "quando": "2026-10-29 08:01 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/main/noticias/2026-10-29/story.jpg"
+      ]
     }
   }
 }
