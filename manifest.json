@@ -1905,6 +1905,37 @@
       "arquivos": [
         "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-10-29/story.jpg"
       ]
+    },
+    "s19_ter03_raiox01": {
+      "tipo": "feed",
+      "quando": "2026-11-03 19:00 (SP)",
+      "legenda": "70% vendido no dia do lançamento. Na Augusta.\n\nNão foi sorte. Bairro nobre, uma rua que está se renovando e um produto que ainda não existia ali. Quando essas três coisas se encontram, quem chega primeiro leva.\n\nAbri a conta inteira no carrossel: quanto sai do bolso até a chave e quanto o imóvel pode valer na entrega.\n\n📌 Salva o slide 8 pra comparar qualquer lançamento.\n💬 Quer essa conta com o seu valor? Comenta RAIO-X que eu te mando.\n🔔 Toda terça tem Raio-X novo. Semana que vem: o m² mais caro de SP.\n\nMartina Corretora\n\n*Exemplo real: studio de 18,92 m², tabela out/2026, valores com desconto. Valorização é cenário (FipeZAP Jardins, 12 meses até set/2026), não promessa.\n\n#lancamentosp #jardins #comprarnaplanta",
+      "arquivos": [
+        "s19/raiox01/slide_01.jpg",
+        "s19/raiox01/slide_02.jpg",
+        "s19/raiox01/slide_03.jpg",
+        "s19/raiox01/slide_04.jpg",
+        "s19/raiox01/slide_05.jpg",
+        "s19/raiox01/slide_06.jpg",
+        "s19/raiox01/slide_07.jpg",
+        "s19/raiox01/slide_08.jpg",
+        "s19/raiox01/slide_09.jpg"
+      ]
+    },
+    "s19_qui05_historia01": {
+      "tipo": "feed",
+      "quando": "2026-11-05 19:00 (SP)",
+      "legenda": "Já tive cliente que comprou sem pedir desconto.\n\nToda venda tem negociação. Abri o jogo com ele, e hoje ele sabe que tem que pedir. Desconto aumenta o retorno de quem compra.\n\nUma das habilidades do investidor é saber comprar.\n\nE você: pediu desconto no seu último imóvel? Me conta aqui embaixo.\n\n🔔 Toda quinta eu conto uma história real de quem comprou. Segue pra ler a próxima.\n💬 Quer comprar do jeito certo? Comenta AGENDA que eu te mando o link.\n\nMartina Corretora\n\n#investimentoimobiliario #comprarimovel #imoveissp",
+      "arquivos": [
+        "s19/historia01/slide_01.jpg",
+        "s19/historia01/slide_02.jpg",
+        "s19/historia01/slide_03.jpg",
+        "s19/historia01/slide_04.jpg",
+        "s19/historia01/slide_05.jpg",
+        "s19/historia01/slide_06.jpg",
+        "s19/historia01/slide_07.jpg",
+        "s19/historia01/slide_08.jpg"
+      ]
     }
   }
 }
