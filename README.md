@@ -1,13 +1,24 @@
-# Martina IG — Publicador na Nuvem (Semana 5)
+# Martina IG + TikTok — Publicador na Nuvem
 
-Despertador na nuvem que publica os posts e stories do Instagram
-@martina.investimentos nos horários certos, **sem depender do PC ligado**.
+Despertador na nuvem que publica os posts, stories (só IG) e reels do Instagram
+@martina.investimentos e do TikTok @martina.one.imoveis nos horários certos,
+**sem depender do PC ligado**.
 
 ## Como funciona
-- As mídias já estão hospedadas no site (`martinacorretora.com.br/ig/s5/`).
-- O GitHub Actions dispara nos horários da Semana 5 (arquivo `.github/workflows/publicar.yml`).
-- Cada disparo chama `publicar_nuvem.py <slot>`, que publica pela **API oficial** do Instagram.
-- A chave do Instagram fica no segredo `IG_TOKEN` do repositório (Settings → Secrets → Actions).
+- As mídias já estão hospedadas no site (`martinacorretora.com.br/ig/...`).
+- O GitHub Actions dispara nos horários certos (arquivo `.github/workflows/publicar.yml`).
+- Cada disparo chama `publicar_nuvem.py <slot>` (Instagram) e, se o slot for `feed` ou `reel`
+  (não `story`), também `publicar_tiktok.py <slot>` — mesmo manifest.json, mesma mídia.
+- Chaves nos segredos do repositório (Settings → Secrets → Actions): `IG_TOKEN` e
+  `TIKTOK_ACCESS_TOKEN`.
+
+## TikTok — modo sandbox
+Enquanto o app "Martina Automação" não passar por **Submit for review** no TikTok Developer,
+todo post sai com `privacy_level=SELF_ONLY` — só a própria Rosana vê, não fica público.
+O `TIKTOK_ACCESS_TOKEN` vale só **1 dia**; é renovado localmente 1x/dia por
+`Martina_Posts_Instagram/renovar_token_tiktok.py` (usa o `refresh_token`, válido 365 dias e
+que o TikTok rotaciona a cada uso — por isso o script salva o novo refresh_token local
+a cada renovação).
 
 ## Testar sem publicar
 GitHub → aba **Actions** → "Publicar Instagram (Semana 5)" → **Run workflow** →

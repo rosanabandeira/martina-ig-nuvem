@@ -164,11 +164,14 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.slot != 'automatico'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             python publicar_nuvem.py "${{ github.event.inputs.slot }}" --dry-run
+            python publicar_tiktok.py "${{ github.event.inputs.slot }}" --dry-run || true
           else
             python publicar_nuvem.py "${{ github.event.inputs.slot }}"
+            python publicar_tiktok.py "${{ github.event.inputs.slot }}" || true
             python pendentes_hoje.py --marcar "${{ github.event.inputs.slot }}" publicado_manual
             git add publicados.json
             git commit -q -m "Publicado (manual): ${{ github.event.inputs.slot }}"
@@ -179,6 +182,7 @@ jobs:
         if: github.event_name == 'schedule' || github.event.inputs.slot == 'automatico'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
         run: |
           falhou=0
           for slot in $(python pendentes_hoje.py); do
@@ -189,6 +193,8 @@ jobs:
             git add publicados.json && git commit -q -m "Publicando: $slot" && git pull -q --rebase && git push -q
             if python publicar_nuvem.py "$slot"; then
               python pendentes_hoje.py --marcar "$slot" publicado
+              # TikTok espelha feed/reel do IG (story fica só no IG); nao derruba o job se falhar.
+              python publicar_tiktok.py "$slot" || echo "TikTok nao publicou o slot $slot (ver log acima)"
             else
               python pendentes_hoje.py --marcar "$slot" falhou
               falhou=1
