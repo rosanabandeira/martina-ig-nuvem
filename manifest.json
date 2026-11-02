@@ -2016,6 +2016,22 @@
         "s19/historia05/slide_08.jpg",
         "s19/historia05/slide_09.jpg"
       ]
+    },
+    "noticia_2026-11-02_feed": {
+      "tipo": "feed",
+      "quando": "2026-11-02 16:42 (SP)",
+      "legenda": "Na segunda-feira, 26 de outubro de 2026, a bolsa brasileira caiu 13,88% em um único pregão e acionou o circuit breaker — a maior queda diária desde a pandemia. O dólar subiu para R$ 5,40.\n\nIsso mostra como o mercado financeiro pode perder valor em poucas horas. Um imóvel bem localizado não desaparece do patrimônio dessa forma: ele segue ali, dando segurança para quem comprou.\n\nQuer entender por onde começar? Comenta AGENDA que eu te mando o link para um bate-papo de 30 minutos.\n\nFonte: InfoMoney, 26/10/2026.",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-02/feed.jpg"
+      ]
+    },
+    "noticia_2026-11-02_story": {
+      "tipo": "story",
+      "quando": "2026-11-02 16:43 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-02/story.jpg"
+      ]
     }
   }
 }
