@@ -2032,6 +2032,22 @@
       "arquivos": [
         "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-02/story.jpg"
       ]
+    },
+    "noticia_2026-11-03_feed": {
+      "tipo": "feed",
+      "quando": "2026-11-03 16:38 (SP)",
+      "legenda": "O índice FipeZap mostrou que o preço médio do metro quadrado residencial no Brasil chegou a R$ 10.015 em setembro de 2026, com alta acumulada de 5,51% em 12 meses.\n\nEnquanto outros investimentos oscilam com o humor do mercado, o imóvel bem localizado segue valorizando de forma constante e segura — e ainda vira patrimônio real, que você pode ver e morar.\n\nQuer entender por onde começar? Comenta AGENDA que eu te mando o link para um bate-papo de 30 minutos.\n\nFonte: FipeZap/FIPE, 01/10/2026.",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-03/feed.jpg"
+      ]
+    },
+    "noticia_2026-11-03_story": {
+      "tipo": "story",
+      "quando": "2026-11-03 16:39 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-03/story.jpg"
+      ]
     }
   }
 }
