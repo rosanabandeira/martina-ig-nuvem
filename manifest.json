@@ -2119,6 +2119,22 @@
       "arquivos": [
         "criativos_gerentes/20261104_NexOneJurupis_decorado_tour.mp4"
       ]
+    },
+    "noticia_2026-11-11_feed": {
+      "tipo": "feed",
+      "quando": "2026-11-11 08:00 (SP)",
+      "legenda": "O dólar fechou a R$ 5,586 na terça-feira, 10/11/2026, o maior valor desde julho de 2025 (15 meses), com o Ibovespa em queda de 0,52%. Em momentos assim, quem tem patrimônio em dólar ou bolsa sente a oscilação no mesmo dia. Já quem investiu em um imóvel bem localizado em São Paulo mantém o valor do bem, com a segurança de um ativo físico que não muda de preço a cada notícia do exterior. Quer entender por onde começar? Comenta AGENDA que eu te mando o link para um bate-papo de 30 minutos.\n\nFonte: ncnews.com.br, 10/11/2026.",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-11/feed.jpg"
+      ]
+    },
+    "noticia_2026-11-11_story": {
+      "tipo": "story",
+      "quando": "2026-11-11 08:01 (SP)",
+      "legenda": "",
+      "arquivos": [
+        "https://raw.githubusercontent.com/rosanabandeira/martina-ig-nuvem/master/noticias/2026-11-11/story.jpg"
+      ]
     }
   }
 }
