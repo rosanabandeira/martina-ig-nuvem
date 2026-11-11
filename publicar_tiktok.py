@@ -37,6 +37,11 @@ TOKEN = os.environ.get("TIKTOK_ACCESS_TOKEN", "").strip()
 # (so a propria Rosana ve). Trocar para PUBLIC_TO_EVERYONE depois da aprovacao.
 PRIVACY_LEVEL = os.environ.get("TIKTOK_PRIVACY_LEVEL", "SELF_ONLY")
 
+# "rascunho" (padrao): manda pra caixa de entrada do TikTok e a Rosana publica com 1 toque no app.
+# Nao exige app auditado nem conta privada (o TikTok recusa auditoria de ferramenta pra conta propria).
+# "direto": Direct Post, que no app nao auditado so sai SELF_ONLY.
+MODO = os.environ.get("TIKTOK_MODO", "rascunho")
+
 
 def log(msg):
     print(f"[{datetime.now():%Y-%m-%d %H:%M:%S}] {msg}", flush=True)
@@ -71,7 +76,7 @@ def _esperar_processar(publish_id, timeout=240):
     while time.time() - inicio < timeout:
         st = _status(publish_id)
         status = st.get("status")
-        if status == "PUBLISH_COMPLETE":
+        if status == "PUBLISH_COMPLETE" or (MODO == "rascunho" and status == "SEND_TO_USER_INBOX"):
             return st
         if status == "FAILED":
             raise TikTokError(f"Publicacao falhou: {st}")
@@ -92,7 +97,7 @@ def publicar_slot(nome, dry_run=False):
     urls = [a if a.startswith("http") else f"{base}/{a}" for a in slot["arquivos"]]
     legenda = slot.get("legenda", "")[:2200]  # limite de caption do TikTok
 
-    log(f"Slot '{nome}' | tipo={tipo} | {len(urls)} arquivo(s) | privacy={PRIVACY_LEVEL}")
+    log(f"Slot '{nome}' | tipo={tipo} | {len(urls)} arquivo(s) | modo={MODO} | privacy={PRIVACY_LEVEL}")
     for u in urls:
         log(f"  midia: {u}")
 
@@ -110,7 +115,21 @@ def publicar_slot(nome, dry_run=False):
                             ensure_ascii=False))
         return
 
-    if tipo == "reel":
+    if MODO == "rascunho" and tipo == "reel":
+        data = _post("/post/publish/inbox/video/init/", {
+            "source_info": {"source": "PULL_FROM_URL", "video_url": urls[0]},
+        })
+    elif MODO == "rascunho":
+        data = _post("/post/publish/content/init/", {
+            "post_info": {
+                "title": (legenda.splitlines() or [""])[0][:90],
+                "description": slot.get("legenda", "")[:4000],
+            },
+            "source_info": {"source": "PULL_FROM_URL", "photo_images": urls, "photo_cover_index": 0},
+            "post_mode": "MEDIA_UPLOAD",
+            "media_type": "PHOTO",
+        })
+    elif tipo == "reel":
         data = _post("/post/publish/video/init/", {
             "post_info": {
                 "title": legenda,
@@ -146,7 +165,7 @@ def publicar_slot(nome, dry_run=False):
         raise TikTokError(f"resposta sem publish_id: {data}")
     log(f"publish_id={publish_id}, aguardando processar...")
     st = _esperar_processar(publish_id)
-    log(f"PUBLICADO no TikTok. publish_id={publish_id}")
+    log(f"{'RASCUNHO enviado pra caixa de entrada do TikTok' if MODO == 'rascunho' else 'PUBLICADO no TikTok'}. publish_id={publish_id}")
     return st
 
 
