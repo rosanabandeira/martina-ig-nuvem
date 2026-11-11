@@ -106,6 +106,22 @@ def _publicar(cid):
     raise IGError(f"nao publicou apos varias tentativas: {ultimo_erro}")
 
 
+class MidiaNaoPronta(Exception):
+    """Midia ainda nao esta no ar (ex.: criativo subiu no site minutos antes). O workflow
+    devolve o slot pra fila e tenta de novo no proximo disparo — sem risco de post duplicado."""
+
+
+def _conferir_midia_no_ar(urls):
+    for u in urls:
+        try:
+            r = requests.head(u, allow_redirects=True, timeout=30)
+            tipo = r.headers.get("Content-Type", "")
+        except requests.RequestException as e:
+            raise MidiaNaoPronta(f"{u}: {e}")
+        if r.status_code != 200 or not tipo.startswith(("image/", "video/")):
+            raise MidiaNaoPronta(f"{u}: HTTP {r.status_code} {tipo}")
+
+
 def publicar_slot(nome, dry_run=False):
     slot = MANIFEST["slots"].get(nome)
     if not slot:
@@ -118,6 +134,7 @@ def publicar_slot(nome, dry_run=False):
     log(f"Slot '{nome}' | tipo={tipo} | {len(urls)} arquivo(s)")
     for u in urls:
         log(f"  midia: {u}")
+    _conferir_midia_no_ar(urls)
 
     if tipo == "reel":
         cid = _post(f"{IG_USER_ID}/media",
@@ -173,9 +190,13 @@ def main():
     try:
         publicar_slot(args.slot, dry_run=args.dry_run)
         log("Concluido.")
+    except MidiaNaoPronta as e:
+        log(f"MIDIA AINDA NAO ESTA NO AR, tenta no proximo disparo: {e}")
+        sys.exit(3)
     except IGError as e:
         log(f"ERRO: {e}")
-        sys.exit(1)
+        # erro na criacao do container = nada foi publicado, seguro tentar de novo
+        sys.exit(3 if "Only photo or video" in str(e) else 1)
 
 
 if __name__ == "__main__":

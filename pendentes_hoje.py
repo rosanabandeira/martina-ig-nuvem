@@ -30,7 +30,8 @@ def pendentes():
     agora = datetime.now(SP)
     devidos = []
     for nome, slot in slots.items():
-        if not isinstance(slot, dict) or nome in publicados:
+        # "aguardando_midia" = midia nao estava no ar; volta pra fila (so no mesmo dia)
+        if not isinstance(slot, dict) or (nome in publicados and publicados[nome].get("status") != "aguardando_midia"):
             continue
         try:
             quando = datetime.strptime(slot.get("quando", ""), "%Y-%m-%d %H:%M (SP)").replace(tzinfo=SP)

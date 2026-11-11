@@ -191,10 +191,14 @@ jobs:
             # repetido); a revisao diaria avisa o que falhou.
             python pendentes_hoje.py --marcar "$slot" tentando
             git add publicados.json && git commit -q -m "Publicando: $slot" && git pull -q --rebase && git push -q
-            if python publicar_nuvem.py "$slot"; then
+            python publicar_nuvem.py "$slot"; rc=$?
+            if [ $rc -eq 0 ]; then
               python pendentes_hoje.py --marcar "$slot" publicado
-              # TikTok espelha feed/reel do IG (story fica só no IG); nao derruba o job se falhar.
-              python publicar_tiktok.py "$slot" || echo "TikTok nao publicou o slot $slot (ver log acima)"
+              # TikTok: publicado pelo robo local pelo site (publicar_tiktok.py esta em modo desligado)
+              python publicar_tiktok.py "$slot" || true
+            elif [ $rc -eq 3 ]; then
+              # midia ainda nao estava no ar: volta pra fila, proximo disparo tenta de novo
+              python pendentes_hoje.py --marcar "$slot" aguardando_midia
             else
               python pendentes_hoje.py --marcar "$slot" falhou
               falhou=1
