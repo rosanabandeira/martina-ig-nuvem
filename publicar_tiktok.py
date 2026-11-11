@@ -124,10 +124,13 @@ def publicar_slot(nome, dry_run=False):
         })
     else:
         data = _post("/post/publish/content/init/", {
+            # Foto: "title" aceita no maximo 90 caracteres; a legenda completa vai em "description".
             "post_info": {
-                "title": legenda,
+                "title": (legenda.splitlines() or [""])[0][:90],
+                "description": slot.get("legenda", "")[:4000],
                 "privacy_level": PRIVACY_LEVEL,
                 "disable_comment": False,
+                "auto_add_music": True,
             },
             "source_info": {
                 "source": "PULL_FROM_URL",
@@ -157,12 +160,18 @@ def main():
         log("ERRO: variavel TIKTOK_ACCESS_TOKEN vazia (configure o segredo no GitHub).")
         sys.exit(1)
 
-    try:
-        publicar_slot(args.slot, dry_run=args.dry_run)
-        log("Concluido.")
-    except TikTokError as e:
-        log(f"ERRO: {e}")
-        sys.exit(1)
+    # O TikTok as vezes devolve FAILED/internal ao baixar a midia; uma 2a tentativa resolve.
+    for tentativa in (1, 2):
+        try:
+            publicar_slot(args.slot, dry_run=args.dry_run)
+            log("Concluido.")
+            return
+        except TikTokError as e:
+            log(f"ERRO (tentativa {tentativa}): {e}")
+            if tentativa == 1 and "internal" in str(e):
+                time.sleep(20)
+                continue
+            sys.exit(1)
 
 
 if __name__ == "__main__":
