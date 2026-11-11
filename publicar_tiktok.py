@@ -37,10 +37,12 @@ TOKEN = os.environ.get("TIKTOK_ACCESS_TOKEN", "").strip()
 # (so a propria Rosana ve). Trocar para PUBLIC_TO_EVERYONE depois da aprovacao.
 PRIVACY_LEVEL = os.environ.get("TIKTOK_PRIVACY_LEVEL", "SELF_ONLY")
 
-# "rascunho" (padrao): manda pra caixa de entrada do TikTok e a Rosana publica com 1 toque no app.
+# "desligado" (padrao desde 10/11/2026): quem publica no TikTok e o robo local pelo site
+#   (Martina_Posts_Instagram/tiktok_web/tiktok_web.py, tarefa MartinaTikTok_PublicarWeb 8h/15h).
+# "rascunho": manda pra caixa de entrada do TikTok e a Rosana publica com 1 toque no app.
 # Nao exige app auditado nem conta privada (o TikTok recusa auditoria de ferramenta pra conta propria).
 # "direto": Direct Post, que no app nao auditado so sai SELF_ONLY.
-MODO = os.environ.get("TIKTOK_MODO", "rascunho")
+MODO = os.environ.get("TIKTOK_MODO", "desligado")
 
 
 def log(msg):
@@ -174,6 +176,10 @@ def main():
     ap.add_argument("slot", help="nome do slot (mesmo nome usado no publicar_nuvem.py do IG)")
     ap.add_argument("--dry-run", action="store_true", help="monta mas NAO publica")
     args = ap.parse_args()
+
+    if MODO == "desligado":
+        log("TikTok pela API desligado (publica o robo local pelo site).")
+        return
 
     if not TOKEN and not args.dry_run:
         log("ERRO: variavel TIKTOK_ACCESS_TOKEN vazia (configure o segredo no GitHub).")
